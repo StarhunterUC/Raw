@@ -713,9 +713,7 @@
         "spd": 3,
         "stackable": false,
         "subtype": "mystic_body",
-        "type": "armor",
-        "limited": true,
-        "limited_until": "2026-02-02T19:07:02.035158"
+        "type": "armor"
     },
     "Black Mask": {
         "buy_price": 12800,
@@ -905,9 +903,7 @@
         "sell_price": 1250,
         "stackable": false,
         "subtype": "light_body",
-        "type": "armor",
-        "limited": true,
-        "limited_until": "2026-02-02T19:07:02.035158"
+        "type": "armor"
     },
     "Broken Greataxe": {
         "buy_price": null,
@@ -5279,10 +5275,22 @@
         "type": "junk"
     },
     "Manufacted Nethicite": {
+        "name": "Manufacted Nethicite",
+        "type": "accessory",
+        "subtype": "accessory",
         "buy_price": null,
-        "description": "A Human-Made variety of magicite with the unusual property of absorbing Mist, thereby nullifying the effects of magick",
         "sell_price": null,
-        "type": "junk"
+        "stackable": false,
+        "description": "Effect: Silence (Nethicite). Element: Half: All elements",
+        "regions": [
+            "EDEN Station",
+            "Sundering Spiral"
+        ],
+        "defense": 0,
+        "mag_resist": 3,
+        "metal": 0,
+        "element": "Half: All elements",
+        "special": "Effect: Silence (Nethicite)."
     },
     "Mardu Halcyon": {
         "buy_price": null,
@@ -5439,7 +5447,9 @@
         "stackable": false,
         "subtype": "light_body",
         "type": "armor",
-        "vit": 10
+        "vit": 10,
+        "limited": true,
+        "limited_until": "2026-02-22T02:08:58.149878"
     },
     "Mirror Scale": {
         "buy_price": null,
@@ -6070,6 +6080,17 @@
         "sell_price": 30,
         "type": "consumable"
     },
+    "Hypo Spray": {
+        "buy_price": 5000,
+        "description": "Restores 800 HP and removes 1 wound; Hypo sprays deliver stimulants, analgesics and active neuro-biological reinforcing elements through a sub-dermal injector. The solution takes time to act on the body: further trauma while it is active reduce the hypo's maximum healing potential. Even a few hits will cancel the effect altogether. ",
+        "regions": [
+            "Pharos",
+            "Yusnaan",
+            "Rabanastre"
+        ],
+        "sell_price": 450,
+        "type": "consumable"
+    },
     "Power Vest": {
         "buy_price": 8100,
         "defense": 41,
@@ -6097,7 +6118,9 @@
         "stackable": false,
         "str": 2,
         "subtype": "light_body",
-        "type": "armor"
+        "type": "armor",
+        "limited": true,
+        "limited_until": "2026-02-22T02:08:58.149878"
     },
     "Prime Pelt": {
         "buy_price": null,
@@ -6921,6 +6944,14 @@
         "sell_price": 815,
         "type": "junk"
     },
+    "Slave Collar": {
+        "buy_price": null,
+        "description": "A valuable material that can be sold for gil.",
+        "sell_price": null,
+        "type": "accessory",
+        "subtype": "oldworld",
+        "admin_remove_only": true
+    },
     "Slime Oil": {
         "buy_price": null,
         "description": "A valuable material that can be sold for gil.",
@@ -6949,8 +6980,8 @@
         "buy_price": null,
         "description": "A lost piece of history from an old friend.",
         "sell_price": 80,
-        "type": "junk"	
-    },		
+        "type": "junk"
+    },
     "Soldier's Cap": {
         "buy_price": 1400,
         "description": "Worn by seasoned warriors for moderate defense.",
@@ -7163,6 +7194,23 @@
         "subtype": "sword",
         "type": "weapon",
         "usable_in_combat": true
+    },
+    "Crimson Blitz": {
+        "attack": 170,
+        "buy_price": null,
+        "description": "A sword bestowed upon the savior. Its blade was ruined by ? ? ? and its integrity and strength",
+        "evasion": 5,
+        "name": "Steel Sword",
+        "regions": [
+            "The Paddraean Archaeopolis",
+            "The Stillshrine of Etro"
+        ],
+        "sell_price": 275,
+        "stackable": false,
+        "subtype": "sword",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "special": "Haste: Increases Attack + Movement Speed by 15%"
     },
     "Storm Crystal": {
         "buy_price": null,
@@ -8232,7 +8280,9 @@
     "Bangle": {
         "name": "Bangle",
         "type": "accessory",
-		"effects": ["Libra"],
+        "effects": [
+            "Libra"
+        ],
         "subtype": "accessory",
         "buy_price": 500,
         "sell_price": 500,
@@ -9137,7 +9187,9 @@
         "name": "Ribbon",
         "type": "accessory",
         "subtype": "accessory",
-		"effects": ["Libra"],
+        "effects": [
+            "Libra"
+        ],
         "buy_price": null,
         "sell_price": 10,
         "stackable": false,
@@ -9173,24 +9225,6 @@
         "license_required": "Genji Armor",
         "special": "Increases combo attack rate (~x1.8)."
     },
-    "Manufacted Nethicite": {
-        "name": "Manufacted Nethicite",
-        "type": "accessory",
-        "subtype": "accessory",
-        "buy_price": null,
-        "sell_price": null,
-        "stackable": false,
-        "description": "Effect: Silence (Nethicite). Element: Half: All elements",
-        "regions": [
-            "EDEN Station",
-            "Sundering Spiral"
-        ],
-        "defense": 0,
-        "mag_resist": 3,
-        "metal": 0,
-        "element": "Half: All elements",
-        "special": "Effect: Silence (Nethicite)."
-    },
     "Goddess's Magicite": {
         "name": "Goddess's Magicite",
         "type": "accessory",
@@ -9224,5 +9258,1393 @@
         "mag_resist": 20,
         "metal": 0,
         "special": "Effect: Sets MP to 0 and prevents Mist Gauge from rising."
+    },
+    "Technick: Steal": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Steal. Steal item(s) from an enemy. Improved by Thief's Cuffs.",
+        "license_required": "Steal",
+        "teaches": {
+            "kind": "technick",
+            "name": "Steal"
+        }
+    },
+    "Technick: Libra": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": 400,
+        "sell_price": 200,
+        "description": "Teaches Technick: Libra. Reveals HP, level, elemental weaknesses, and hidden traps (many bosses/Marks/Rare Game immune).",
+        "license_required": "Libra",
+        "regions": [
+            "Archades",
+            "Balfonheim",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Libra"
+        }
+    },
+    "Technick: Poach": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": 5000,
+        "sell_price": 2500,
+        "description": "Teaches Technick: Poach. Defeat an HP Critical foe to obtain unique loot (no EXP/LP/CP/Gil/drops).",
+        "license_required": "Poach",
+        "regions": [
+            "Archades",
+            "Balfonheim",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Poach"
+        }
+    },
+    "Technick: First Aid": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": 600,
+        "sell_price": 300,
+        "description": "Teaches Technick: First Aid. Restore HP to one HP Critical ally (misses if ally not HP Critical).",
+        "license_required": "First Aid",
+        "regions": [
+            "Archades",
+            "Balfonheim",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "First Aid"
+        }
+    },
+    "Technick: Telekinesis": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Telekinesis. Deal ranged damage with melee weapons (misses with ranged weapons).",
+        "license_required": "Telekinesis",
+        "teaches": {
+            "kind": "technick",
+            "name": "Telekinesis"
+        }
+    },
+    "Technick: Numerology": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Numerology. Damage doubles and accuracy decreases with successive hits; resets on miss.",
+        "license_required": "Numerology",
+        "teaches": {
+            "kind": "technick",
+            "name": "Numerology"
+        }
+    },
+    "Technick: Souleater": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": 6000,
+        "sell_price": 3000,
+        "description": "Teaches Technick: Souleater. Consume 20% max HP to deal heavy damage to one ground-based enemy; restores HP to undead targets.",
+        "license_required": "Souleater",
+        "regions": [
+            "Archades",
+            "Balfonheim",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Souleater"
+        }
+    },
+    "Technick: Sight Unseeing": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Sight Unseeing. Only usable while Blinded; drops enemy HP to a random number between 0 and 8.",
+        "license_required": "Sight Unseeing",
+        "teaches": {
+            "kind": "technick",
+            "name": "Sight Unseeing"
+        }
+    },
+    "Technick: Charm": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Charm. Inflicts Confuse on one enemy.",
+        "license_required": "Charm",
+        "teaches": {
+            "kind": "technick",
+            "name": "Charm"
+        }
+    },
+    "Technick: Achilles": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Achilles. Adds one additional elemental weakness to one enemy.",
+        "license_required": "Achilles",
+        "teaches": {
+            "kind": "technick",
+            "name": "Achilles"
+        }
+    },
+    "Technick: Charge": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": 1500,
+        "sell_price": 750,
+        "description": "Teaches Technick: Charge. Restore MP; if it fails, MP is reduced to 0. Charges Mist on success.",
+        "license_required": "Charge",
+        "regions": [
+            "Archades",
+            "Balfonheim",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Charge"
+        }
+    },
+    "Technick: Infuse": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Infuse. Fully consume MP to set an ally's HP to 10x the sacrificed MP.",
+        "license_required": "Infuse",
+        "regions": [
+            "Ogir-Yensa Sandsea"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Infuse"
+        }
+    },
+    "Technick: Gil Toss": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Gil Toss. Throw gil to damage all foes in range; misses if you lack enough gil.",
+        "license_required": "Gil Toss",
+        "regions": [
+            "Pharos"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Gil Toss"
+        }
+    },
+    "Technick: 1000 Needles": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: 1000 Needles. Deal 1,000 fixed damage to one foe.",
+        "license_required": "1000 Needles",
+        "teaches": {
+            "kind": "technick",
+            "name": "1000 Needles"
+        }
+    },
+    "Technick: Revive": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Revive. Sacrifice self to revive and fully restore HP of one KO'd ally.",
+        "license_required": "Revive",
+        "teaches": {
+            "kind": "technick",
+            "name": "Revive"
+        }
+    },
+    "Technick: Stamp": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Stamp. Copies harmful status effects (excluding HP Critical) from you to one foe.",
+        "license_required": "Stamp",
+        "teaches": {
+            "kind": "technick",
+            "name": "Stamp"
+        }
+    },
+    "Technick: Shades of Black": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Shades of Black. Cast a random Black Magick spell on one enemy.",
+        "license_required": "Shades of Black",
+        "teaches": {
+            "kind": "technick",
+            "name": "Shades of Black"
+        }
+    },
+    "Technick: Traveler": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": 4800,
+        "sell_price": 2400,
+        "description": "Teaches Technick: Traveler. Deals damage to all enemies in range based on total steps taken.",
+        "license_required": "Traveler",
+        "regions": [
+            "Archades",
+            "Balfonheim",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Traveler"
+        }
+    },
+    "Technick: Horology": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": 2000,
+        "sell_price": 1000,
+        "description": "Teaches Technick: Horology. Damages all enemies in range based on game time.",
+        "license_required": "Horology",
+        "regions": [
+            "Archades",
+            "Balfonheim",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "technick",
+            "name": "Horology"
+        }
+    },
+    "Technick: Bonecrusher": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Bonecrusher. Consume HP to reduce one foe's HP to 0; risk self-KO on miss.",
+        "license_required": "Bonecrusher",
+        "teaches": {
+            "kind": "technick",
+            "name": "Bonecrusher"
+        }
+    },
+    "Technick: Wither": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Wither. Lowers one foe's Strength.",
+        "license_required": "Wither",
+        "teaches": {
+            "kind": "technick",
+            "name": "Wither"
+        }
+    },
+    "Technick: Addle": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Addle. Lowers one foe's Magick Power.",
+        "license_required": "Addle",
+        "teaches": {
+            "kind": "technick",
+            "name": "Addle"
+        }
+    },
+    "Technick: Expose": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Expose. Lowers one foe's Defense.",
+        "license_required": "Expose",
+        "teaches": {
+            "kind": "technick",
+            "name": "Expose"
+        }
+    },
+    "Technick: Shear": {
+        "type": "consumable",
+        "subtype": "technick_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Technick: Shear. Lowers one foe's Magick Resist.",
+        "license_required": "Shear",
+        "teaches": {
+            "kind": "technick",
+            "name": "Shear"
+        }
+    },
+    "Scroll: Fire": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 180,
+        "sell_price": 90,
+        "description": "Teaches Black Magick: Fire. Minor Fire-elemental damage to a target.",
+        "license_required": "Black Magick 1",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Fire"
+        }
+    },
+    "Scroll: Fira": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2700,
+        "sell_price": 1350,
+        "description": "Teaches Black Magick: Fira. Moderate Fire-elemental damage to all targets in range.",
+        "license_required": "Black Magick 5",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Fira"
+        }
+    },
+    "Scroll: Firaga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 6800,
+        "sell_price": 3400,
+        "description": "Teaches Black Magick: Firaga. Major Fire-elemental damage to all targets in range.",
+        "license_required": "Black Magick 9",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Firaga"
+        }
+    },
+    "Scroll: Thunder": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 200,
+        "sell_price": 100,
+        "description": "Teaches Black Magick: Thunder. Minor Lightning-elemental damage to a target.",
+        "license_required": "Black Magick 1",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Thunder"
+        }
+    },
+    "Scroll: Thundara": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2900,
+        "sell_price": 1450,
+        "description": "Teaches Black Magick: Thundara. Moderate Lightning-elemental damage to all targets in range.",
+        "license_required": "Black Magick 6",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Thundara"
+        }
+    },
+    "Scroll: Thundaga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 7000,
+        "sell_price": 3500,
+        "description": "Teaches Black Magick: Thundaga. Major Lightning-elemental damage to all targets in range.",
+        "license_required": "Black Magick 9",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Thundaga"
+        }
+    },
+    "Scroll: Blizzard": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 240,
+        "sell_price": 120,
+        "description": "Teaches Black Magick: Blizzard. Minor Ice-elemental damage to a target.",
+        "license_required": "Black Magick 2",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Blizzard"
+        }
+    },
+    "Scroll: Blizzara": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 3300,
+        "sell_price": 1650,
+        "description": "Teaches Black Magick: Blizzara. Moderate Ice-elemental damage to all targets in range.",
+        "license_required": "Black Magick 6",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Blizzara"
+        }
+    },
+    "Scroll: Blizzaga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 7300,
+        "sell_price": 3650,
+        "description": "Teaches Black Magick: Blizzaga. Major Ice-elemental damage to all targets in range.",
+        "license_required": "Black Magick 10",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Blizzaga"
+        }
+    },
+    "Scroll: Aero": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 1200,
+        "sell_price": 600,
+        "description": "Teaches Black Magick: Aero. Minor Wind-elemental damage to all targets in range.",
+        "license_required": "Black Magick 4",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Aero"
+        }
+    },
+    "Scroll: Aeroga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 5700,
+        "sell_price": 2850,
+        "description": "Teaches Black Magick: Aeroga. Major Wind-elemental damage to all targets in range.",
+        "license_required": "Black Magick 8",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Aeroga"
+        }
+    },
+    "Scroll: Aqua": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 700,
+        "sell_price": 350,
+        "description": "Teaches Black Magick: Aqua. Minor Water-elemental damage to one target.",
+        "license_required": "Black Magick 3",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Aqua"
+        }
+    },
+    "Scroll: Bio": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 4000,
+        "sell_price": 2000,
+        "description": "Teaches Black Magick: Bio. Moderate non-elemental damage in range and 100% Sap.",
+        "license_required": "Black Magick 7",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Bio"
+        }
+    },
+    "Scroll: Shock": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 7800,
+        "sell_price": 3900,
+        "description": "Teaches Black Magick: Shock. Major non-elemental damage to one target.",
+        "license_required": "Black Magick 11",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Shock"
+        }
+    },
+    "Scroll: Scourge": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 8500,
+        "sell_price": 4250,
+        "description": "Teaches Black Magick: Scourge. Major non-elemental damage in range and 100% Sap.",
+        "license_required": "Black Magick 12",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Scourge"
+        }
+    },
+    "Scroll: Flare": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Flare. Major non-elemental damage to one target.",
+        "license_required": "Black Magick 12",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Flare"
+        }
+    },
+    "Scroll: Scathe": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Scathe. Massive non-elemental damage to all targets in range.",
+        "license_required": "Black Magick 13",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Scathe"
+        }
+    },
+    "Scroll: Blind": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Blind. Inflicts Blind on a single target.",
+        "license_required": "Black Magick 2",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Blind"
+        }
+    },
+    "Scroll: Blindga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Blindga. Inflicts Blind on all targets in range.",
+        "license_required": "Black Magick 7",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Blindga"
+        }
+    },
+    "Scroll: Silence": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Silence. Inflicts Silence on a single target.",
+        "license_required": "Black Magick 3",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Silence"
+        }
+    },
+    "Scroll: Silencega": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Silencega. Inflicts Silence on all targets in range.",
+        "license_required": "Black Magick 8",
+        "regions": [
+            "Necrohol of Nabudis"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Silencega"
+        }
+    },
+    "Scroll: Sleep": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Sleep. Inflicts Sleep on a single target.",
+        "license_required": "Black Magick 4",
+        "regions": [
+            "Ogir-Yensa Sandsea"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Sleep"
+        }
+    },
+    "Scroll: Sleepga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Sleepga. Inflicts Sleep on all targets in range.",
+        "license_required": "Black Magick 10",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Sleepga"
+        }
+    },
+    "Scroll: Poison": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Poison. Inflicts Poison on a single target.",
+        "license_required": "Black Magick 5",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Poison"
+        }
+    },
+    "Scroll: Toxify": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Black Magick: Toxify. Inflicts Poison on all targets in range.",
+        "license_required": "Black Magick 11",
+        "teaches": {
+            "kind": "spell",
+            "school": "Black Magick",
+            "name": "Toxify"
+        }
+    },
+    "Scroll: Cure": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 200,
+        "sell_price": 100,
+        "description": "Teaches White Magick: Cure. Restores HP to a target (damages undead).",
+        "license_required": "White Magick 1",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Cure"
+        }
+    },
+    "Scroll: Cura": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2000,
+        "sell_price": 1000,
+        "description": "Teaches White Magick: Cura. Restores HP to allies in range (damages undead).",
+        "license_required": "White Magick 4",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Cura"
+        }
+    },
+    "Scroll: Curaga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2400,
+        "sell_price": 1200,
+        "description": "Teaches White Magick: Curaga. Restores a large amount of HP to one target (damages undead).",
+        "license_required": "White Magick 5",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Curaga"
+        }
+    },
+    "Scroll: Curaja": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 7700,
+        "sell_price": 3850,
+        "description": "Teaches White Magick: Curaja. Restores a large amount of HP to allies in range (damages undead).",
+        "license_required": "White Magick 9",
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Curaja"
+        }
+    },
+    "Scroll: Raise": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 1800,
+        "sell_price": 900,
+        "description": "Teaches White Magick: Raise. Revives a KO'd ally to 40% HP (KOs undead; base accuracy 70%).",
+        "license_required": "White Magick 4",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Raise"
+        }
+    },
+    "Scroll: Arise": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 8000,
+        "sell_price": 4000,
+        "description": "Teaches White Magick: Arise. Revives a KO'd ally to full HP (KOs undead; base accuracy 35%).",
+        "license_required": "White Magick 10",
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Arise"
+        }
+    },
+    "Scroll: Esuna": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2700,
+        "sell_price": 1350,
+        "description": "Teaches White Magick: Esuna. Removes many negative statuses (see spell rules).",
+        "license_required": "White Magick 7",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Esuna"
+        }
+    },
+    "Scroll: Esunaga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 12000,
+        "sell_price": 6000,
+        "description": "Teaches White Magick: Esunaga. Removes many negative statuses from allies in range (see spell rules).",
+        "license_required": "White Magick 11",
+        "regions": [
+            "Necrohol of Nabudis"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Esunaga"
+        }
+    },
+    "Scroll: Blindna": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 200,
+        "sell_price": 100,
+        "description": "Teaches White Magick: Blindna. Removes Blind from a target.",
+        "license_required": "White Magick 1",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Blindna"
+        }
+    },
+    "Scroll: Vox": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 300,
+        "sell_price": 150,
+        "description": "Teaches White Magick: Vox. Removes Silence from a target.",
+        "license_required": "White Magick 2",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Vox"
+        }
+    },
+    "Scroll: Poisona": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 320,
+        "sell_price": 160,
+        "description": "Teaches White Magick: Poisona. Removes Poison from a target.",
+        "license_required": "White Magick 2",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Poisona"
+        }
+    },
+    "Scroll: Stona": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 800,
+        "sell_price": 400,
+        "description": "Teaches White Magick: Stona. Removes Stone/Petrify from a target.",
+        "license_required": "White Magick 5",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Stona"
+        }
+    },
+    "Scroll: Cleanse": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches White Magick: Cleanse. Removes Disease from a target.",
+        "license_required": "White Magick 7",
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Cleanse"
+        }
+    },
+    "Scroll: Protect": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 250,
+        "sell_price": 125,
+        "description": "Teaches White Magick: Protect. Bestows Protect on a target, reducing physical damage taken.",
+        "license_required": "White Magick 3",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Protect"
+        }
+    },
+    "Scroll: Shell": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 250,
+        "sell_price": 125,
+        "description": "Teaches White Magick: Shell. Bestows Shell on a target, reducing magick damage taken.",
+        "license_required": "White Magick 3",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Shell"
+        }
+    },
+    "Scroll: Confuse": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 1400,
+        "sell_price": 700,
+        "description": "Teaches White Magick: Confuse. Inflicts Confuse on a target.",
+        "license_required": "White Magick 8",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Confuse"
+        }
+    },
+    "Scroll: Holy": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches White Magick: Holy. Major Holy-elemental damage to one target.",
+        "license_required": "White Magick 11",
+        "regions": [
+            "Pharos"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Holy"
+        }
+    },
+    "Scroll: Haste": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Time Magick: Haste. Bestows Haste on a single target.",
+        "license_required": "Time Magick 4",
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Haste"
+        }
+    },
+    "Scroll: Hastega": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Time Magick: Hastega. Bestows Haste on allies in range.",
+        "license_required": "Time Magick 10",
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Hastega"
+        }
+    },
+    "Scroll: Slow": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 200,
+        "sell_price": 100,
+        "description": "Teaches Time Magick: Slow. Inflicts Slow on one target.",
+        "license_required": "Time Magick 1",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Slow"
+        }
+    },
+    "Scroll: Slowga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 7000,
+        "sell_price": 3500,
+        "description": "Teaches Time Magick: Slowga. Inflicts Slow on targets in range.",
+        "license_required": "Time Magick 9",
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Slowga"
+        }
+    },
+    "Scroll: Stop": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 900,
+        "sell_price": 450,
+        "description": "Teaches Time Magick: Stop. Inflicts Stop on a single target.",
+        "license_required": "Time Magick 5",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Stop"
+        }
+    },
+    "Scroll: Immobilize": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 500,
+        "sell_price": 250,
+        "description": "Teaches Time Magick: Immobilize. Inflicts Immobilize on targets in range.",
+        "license_required": "Time Magick 1",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Immobilize"
+        }
+    },
+    "Scroll: Disable": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 700,
+        "sell_price": 350,
+        "description": "Teaches Time Magick: Disable. Inflicts Disable on targets in range.",
+        "license_required": "Time Magick 2",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Disable"
+        }
+    },
+    "Scroll: Bleed": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 1200,
+        "sell_price": 600,
+        "description": "Teaches Time Magick: Bleed. Inflicts Sap on a single target.",
+        "license_required": "Time Magick 5",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Bleed"
+        }
+    },
+    "Scroll: Break": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 1000,
+        "sell_price": 500,
+        "description": "Teaches Time Magick: Break. Inflicts Petrify on a single target.",
+        "license_required": "Time Magick 6",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Break"
+        }
+    },
+    "Scroll: Berserk": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 900,
+        "sell_price": 450,
+        "description": "Teaches Time Magick: Berserk. Inflicts Berserk on a single target.",
+        "license_required": "Time Magick 7",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Berserk"
+        }
+    },
+    "Scroll: Vanish": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Time Magick: Vanish. Bestows Invisible on a single target.",
+        "license_required": "Time Magick 3",
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Vanish"
+        }
+    },
+    "Scroll: Vanishga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 3800,
+        "sell_price": 1900,
+        "description": "Teaches Time Magick: Vanishga. Bestows Invisible on allies in range.",
+        "license_required": "Time Magick 8",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Vanishga"
+        }
+    },
+    "Scroll: Reflect": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Time Magick: Reflect. Bestows Reflect on a single target.",
+        "license_required": "Time Magick 2",
+        "regions": [
+            "Ogir-Yensa Sandsea"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Reflect"
+        }
+    },
+    "Scroll: Reflectga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Time Magick: Reflectga. Bestows Reflect on allies in range.",
+        "license_required": "Time Magick 9",
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Reflectga"
+        }
+    },
+    "Scroll: Balance": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Time Magick: Balance. Non-elemental damage in range equal to (max HP - current HP).",
+        "license_required": "Time Magick 3",
+        "regions": [
+            "Nam-Yensa Sandsea"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Balance"
+        }
+    },
+    "Scroll: Warp": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Time Magick: Warp. Inflicts KO on all targets in range (no rewards).",
+        "license_required": "Time Magick 8",
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Warp"
+        }
+    },
+    "Scroll: Gravity": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2300,
+        "sell_price": 1150,
+        "description": "Teaches Time Magick: Gravity. Reduces HP of targets in range by 25%.",
+        "license_required": "Time Magick 4",
+        "regions": [
+            "Archades",
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Gravity"
+        }
+    },
+    "Scroll: Graviga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 5800,
+        "sell_price": 2900,
+        "description": "Teaches Time Magick: Graviga. Reduces HP of targets in range by 50%.",
+        "license_required": "Time Magick 10",
+        "teaches": {
+            "kind": "spell",
+            "school": "Time Magick",
+            "name": "Graviga"
+        }
+    },
+    "Scroll: Oil": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 800,
+        "sell_price": 400,
+        "description": "Teaches Green Magick: Oil. Inflicts Oil on targets in range.",
+        "license_required": "Green Magick 1",
+        "teaches": {
+            "kind": "spell",
+            "school": "Green Magick",
+            "name": "Oil"
+        }
+    },
+    "Scroll: Reverse": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 7000,
+        "sell_price": 3500,
+        "description": "Teaches Green Magick: Reverse. Inflicts Reverse on a target.",
+        "license_required": "Green Magick 2",
+        "teaches": {
+            "kind": "spell",
+            "school": "Green Magick",
+            "name": "Reverse"
+        }
+    },
+    "Scroll: Decoy": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2000,
+        "sell_price": 1000,
+        "description": "Teaches Green Magick: Decoy. Inflicts Lure on a target.",
+        "license_required": "Green Magick 1",
+        "teaches": {
+            "kind": "spell",
+            "school": "Green Magick",
+            "name": "Decoy"
+        }
+    },
+    "Scroll: Drain": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 3000,
+        "sell_price": 1500,
+        "description": "Teaches Green Magick: Drain. Drains HP from target to caster.",
+        "license_required": "Green Magick 2",
+        "teaches": {
+            "kind": "spell",
+            "school": "Green Magick",
+            "name": "Drain"
+        }
+    },
+    "Scroll: Bubble": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 5000,
+        "sell_price": 2500,
+        "description": "Teaches Green Magick: Bubble. Bestows Bubble (double max HP) on a target.",
+        "license_required": "Green Magick 3",
+        "teaches": {
+            "kind": "spell",
+            "school": "Green Magick",
+            "name": "Bubble"
+        }
+    },
+    "Scroll: Syphon": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 3800,
+        "sell_price": 1900,
+        "description": "Teaches Green Magick: Syphon. Drains MP from target to caster.",
+        "license_required": "Green Magick 3",
+        "teaches": {
+            "kind": "spell",
+            "school": "Green Magick",
+            "name": "Syphon"
+        }
+    },
+    "Scroll: Dark": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 500,
+        "sell_price": 250,
+        "description": "Teaches Arcane Magick: Dark. Minor Dark-elemental damage to all targets in range.",
+        "license_required": "Arcane Magick 1",
+        "regions": [
+            "Rabanastre"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Arcane Magick",
+            "name": "Dark"
+        }
+    },
+    "Scroll: Darkra": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 3500,
+        "sell_price": 1750,
+        "description": "Teaches Arcane Magick: Darkra. Moderate Dark-elemental damage to all targets in range.",
+        "license_required": "Arcane Magick 1",
+        "regions": [
+            "Archades"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Arcane Magick",
+            "name": "Darkra"
+        }
+    },
+    "Scroll: Darkga": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 7500,
+        "sell_price": 3750,
+        "description": "Teaches Arcane Magick: Darkga. Major Dark-elemental damage to all targets in range.",
+        "license_required": "Arcane Magick 2",
+        "teaches": {
+            "kind": "spell",
+            "school": "Arcane Magick",
+            "name": "Darkga"
+        }
+    },
+    "Scroll: Death": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Arcane Magick: Death. Inflicts KO on a single target.",
+        "license_required": "Arcane Magick 2",
+        "teaches": {
+            "kind": "spell",
+            "school": "Arcane Magick",
+            "name": "Death"
+        }
+    },
+    "Scroll: Ardor": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": null,
+        "sell_price": 0,
+        "description": "Teaches Arcane Magick: Ardor. Massive Fire-elemental damage to all targets in range.",
+        "license_required": "Arcane Magick 3",
+        "regions": [
+            "Pharos"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "Arcane Magick",
+            "name": "Ardor"
+        }
     }
 }
