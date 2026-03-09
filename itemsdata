@@ -127,7 +127,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "resist": "Fire",
         "sell_price": 2950,
@@ -183,14 +184,17 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "resist": "Fire",
         "sell_price": 2950,
         "stackable": false,
         "subtype": "light_body",
         "type": "armor",
-        "weak": "Ice"
+        "weak": "Ice",
+        "limited": true,
+        "limited_until": "2026-03-10T01:27:09.646538"
     },
     "Aether Pulse SMG": {
         "attack": 84,
@@ -340,7 +344,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 25,
         "type": "consumable"
@@ -454,7 +459,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 2950,
         "stackable": false,
@@ -488,7 +494,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 500,
         "stackable": false,
@@ -522,7 +529,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 300,
         "stackable": false,
@@ -555,7 +563,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 350,
         "stackable": false,
@@ -579,7 +588,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3500,
         "stackable": false,
@@ -737,7 +747,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 6400,
         "special": "Absorb: Dark",
@@ -768,7 +779,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 6750,
         "special": "Potency: Dark",
@@ -863,7 +875,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 10000,
         "special": "Equip: Bravery",
@@ -898,7 +911,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1250,
         "stackable": false,
@@ -944,7 +958,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -967,7 +982,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 250,
         "stackable": false,
@@ -989,7 +1005,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 110,
         "stackable": false,
@@ -1012,7 +1029,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 125,
         "stackable": false,
@@ -1046,7 +1064,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 400,
         "stackable": false,
@@ -1065,7 +1084,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 180,
         "stackable": false,
@@ -1089,7 +1109,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 250,
         "stackable": false,
@@ -1211,7 +1232,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 350,
         "stackable": false,
@@ -1305,7 +1327,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 2950,
         "stackable": false,
@@ -1334,7 +1357,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 5350,
         "stackable": false,
@@ -1363,7 +1387,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4050,
         "stackable": false,
@@ -1399,7 +1424,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 700,
         "stackable": false,
@@ -1428,7 +1454,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4100,
         "stackable": false,
@@ -1456,7 +1483,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 6200,
         "stackable": false,
@@ -1503,7 +1531,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 100,
         "stackable": false,
@@ -1547,7 +1576,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 30,
         "type": "consumable"
@@ -1574,7 +1604,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 10000,
         "stackable": false,
@@ -1604,7 +1635,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 5350,
         "stackable": false,
@@ -1637,7 +1669,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1050,
         "stackable": false,
@@ -1670,7 +1703,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 950,
         "stackable": false,
@@ -1740,7 +1774,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 50,
         "stackable": false,
@@ -1764,7 +1799,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 50,
         "stackable": false,
@@ -1830,7 +1866,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 7250,
         "stackable": false,
@@ -1857,7 +1894,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 5000,
         "stackable": false,
@@ -1970,7 +2008,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3700,
         "stackable": false,
@@ -2071,7 +2110,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1250,
         "stackable": false,
@@ -2104,7 +2144,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1150,
         "stackable": false,
@@ -2232,7 +2273,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 2800,
         "special": "Immune: Earth",
@@ -2280,7 +2322,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 10000,
         "stackable": false,
@@ -2352,7 +2395,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 25,
         "type": "consumable"
@@ -2403,7 +2447,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 777,
         "type": "consumable"
@@ -2473,7 +2518,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 6000,
         "special": "Auto: Berserk",
@@ -2527,7 +2573,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 110,
         "type": "consumable"
@@ -2628,7 +2675,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 25,
         "type": "consumable"
@@ -2907,7 +2955,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4650,
         "stackable": false,
@@ -2933,7 +2982,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3500,
         "stackable": false,
@@ -2991,7 +3041,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4500,
         "stackable": false,
@@ -3044,7 +3095,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 850,
         "stackable": false,
@@ -3078,7 +3130,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 750,
         "stackable": false,
@@ -3102,7 +3155,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3400,
         "stackable": false,
@@ -3130,7 +3184,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 5350,
         "stackable": false,
@@ -3204,7 +3259,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 8000,
         "stackable": false,
@@ -3278,7 +3334,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4650,
         "stackable": false,
@@ -3332,7 +3389,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 40,
         "type": "consumable"
@@ -3363,7 +3421,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 500,
         "stackable": false,
@@ -3396,7 +3455,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 425,
         "stackable": false,
@@ -3430,7 +3490,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1000,
         "stackable": false,
@@ -3458,7 +3519,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 8000,
         "stackable": false,
@@ -3482,7 +3544,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3000,
         "stackable": false,
@@ -3560,7 +3623,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 950,
         "spd": 3,
@@ -3661,7 +3725,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 185,
         "stackable": false,
@@ -3681,7 +3746,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 25,
         "type": "consumable"
@@ -3734,7 +3800,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 100,
         "stackable": false,
@@ -3757,7 +3824,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -3791,7 +3859,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 700,
         "stackable": false,
@@ -3878,7 +3947,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 555,
         "type": "consumable"
@@ -3929,7 +3999,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 90,
         "type": "consumable"
@@ -3991,7 +4062,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 350,
         "stackable": false,
@@ -4020,7 +4092,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4050,
         "stackable": false,
@@ -4067,7 +4140,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "resist": "Ice",
         "sell_price": 1250,
@@ -4107,7 +4181,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 250,
         "stackable": false,
@@ -4166,7 +4241,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 200,
         "stackable": false,
@@ -4186,7 +4262,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 200,
         "stackable": false,
@@ -4244,7 +4321,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -4282,7 +4360,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 260,
         "stackable": false,
@@ -4303,7 +4382,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -4339,7 +4419,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4050,
         "stackable": false,
@@ -4427,7 +4508,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 250,
         "stackable": false,
@@ -4498,7 +4580,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 700,
         "spd": 3,
@@ -4534,7 +4617,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -4557,7 +4641,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 50,
         "stackable": false,
@@ -4580,7 +4665,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 50,
         "stackable": false,
@@ -4603,7 +4689,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 250,
         "stackable": false,
@@ -4626,7 +4713,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -4662,7 +4750,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": null,
         "stackable": true,
@@ -4697,7 +4786,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 100,
         "stackable": false,
@@ -4728,7 +4818,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 340,
         "stackable": false,
@@ -4758,7 +4849,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 10000,
         "stackable": false,
@@ -5095,7 +5187,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3500,
         "stackable": false,
@@ -5131,7 +5224,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1250,
         "stackable": false,
@@ -5166,7 +5260,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1250,
         "stackable": false,
@@ -5196,7 +5291,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 100,
         "stackable": false,
@@ -5331,7 +5427,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 2600,
         "stackable": false,
@@ -5355,7 +5452,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 7777,
         "type": "consumable"
@@ -5412,7 +5510,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 6200,
         "stackable": false,
@@ -5440,16 +5539,15 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 8000,
         "spd": 10,
         "stackable": false,
         "subtype": "light_body",
         "type": "armor",
-        "vit": 10,
-        "limited": true,
-        "limited_until": "2026-02-22T02:08:58.149878"
+        "vit": 10
     },
     "Mirror Scale": {
         "buy_price": null,
@@ -5677,7 +5775,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4650,
         "spd": 4,
@@ -5697,7 +5796,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 25,
         "type": "consumable"
@@ -5719,7 +5819,8 @@
             "The Sepulcher of Echoed Laments",
             "The Wreck of The Charity",
             "Titan's Gate",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3500,
         "stackable": false,
@@ -5927,7 +6028,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 100,
         "type": "consumable"
@@ -6022,7 +6124,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -6075,9 +6178,22 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 30,
+        "type": "consumable"
+    },
+    "Phial of Fantasia": {
+        "buy_price": 20000,
+        "description": "The miraculous phial of Fantasia grants you an opportunity to edit your character's appearance in any fashion you desire",
+        "regions": [
+            "Mor Dhona",
+            "Nabudis",
+            "Yusnaan",
+            "Archades"
+        ],
+        "sell_price": null,
         "type": "consumable"
     },
     "Hypo Spray": {
@@ -6112,15 +6228,14 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4050,
         "stackable": false,
         "str": 2,
         "subtype": "light_body",
-        "type": "armor",
-        "limited": true,
-        "limited_until": "2026-02-22T02:08:58.149878"
+        "type": "armor"
     },
     "Prime Pelt": {
         "buy_price": null,
@@ -6146,7 +6261,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 25,
         "type": "consumable"
@@ -6300,7 +6416,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 1250,
         "stackable": false,
@@ -6353,7 +6470,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 200,
         "type": "consumable"
@@ -6396,7 +6514,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 8000,
         "special": "Equip: Regen",
@@ -6443,7 +6562,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 350,
         "stackable": false,
@@ -6495,7 +6615,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 550,
         "stackable": false,
@@ -6522,7 +6643,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 7250,
         "special": "Immune: Lightning",
@@ -6788,7 +6910,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 350,
         "type": "consumable"
@@ -6821,7 +6944,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 350,
         "stackable": false,
@@ -6841,7 +6965,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 210,
         "stackable": false,
@@ -6897,7 +7022,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 150,
         "stackable": false,
@@ -6950,7 +7076,8 @@
         "sell_price": null,
         "type": "accessory",
         "subtype": "oldworld",
-        "admin_remove_only": true
+        "admin_remove_only": true,
+        "blocks_mp_regen": true
     },
     "Slime Oil": {
         "buy_price": null,
@@ -7009,7 +7136,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 700,
         "stackable": false,
@@ -7065,6 +7193,24 @@
         "description": "A valuable material that can be sold for gil.",
         "sell_price": 2241,
         "type": "junk"
+    },
+    "Soulrender": {
+        "attack": 600,
+        "mag_pwr": 600,
+        "buy_price": null,
+        "description": "? ? ?",
+        "element": "chaos",
+        "license_required": "Greatswords 5",
+        "name": "Chaos's Revenge",
+        "regions": [
+            "The Sepulcher of Echoed Laments",
+            "Titan's Gate"
+        ],
+        "sell_price": null,
+        "stackable": false,
+        "subtype": "greatsword",
+        "type": "weapon",
+        "usable_in_combat": true
     },
     "Soul of Thamasa": {
         "buy_price": null,
@@ -7155,7 +7301,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 210,
         "stackable": false,
@@ -7187,7 +7334,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 275,
         "stackable": false,
@@ -7269,7 +7417,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 950,
         "stackable": false,
@@ -7340,7 +7489,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 4650,
         "spd": 4,
@@ -7377,7 +7527,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 250,
         "stackable": false,
@@ -7435,7 +7586,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 950,
         "stackable": false,
@@ -7754,7 +7906,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 7250,
         "special": "Absorb: Light",
@@ -7785,7 +7938,8 @@
             "The Shattergrove",
             "The Throne of the Final Eclipse",
             "The Wreck of The Charity",
-            "Vilkas Station"
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 6750,
         "special": "Potency: Holy",
@@ -7839,7 +7993,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "resist": "Wind",
         "sell_price": 500,
@@ -7879,7 +8034,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 650,
         "stackable": false,
@@ -7913,7 +8069,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 550,
         "stackable": false,
@@ -7949,7 +8106,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 500,
         "stackable": false,
@@ -7984,7 +8142,8 @@
             "The Wailing Pit",
             "Thiraxa Bay",
             "Yaschas Massif",
-            "Yusnaan"
+            "Yusnaan",
+            "Mor Dhona"
         ],
         "sell_price": 500,
         "stackable": false,
@@ -8029,7 +8188,8 @@
             "Luxerion",
             "Mar'Quessa",
             "Rabanastre",
-            "Thiraxa Bay"
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 125,
         "stackable": false,
@@ -8113,7 +8273,8 @@
             "Sundering Spiral",
             "Memory's Brink",
             "Hollow Reliquary",
-            "The Mourndark Labyrinth"
+            "The Mourndark Labyrinth",
+            "Mor Dhona"
         ],
         "sell_price": 260,
         "type": "consumable"
@@ -8299,8 +8460,9 @@
             "Bodhum",
             "Cocoon"
         ],
+        "attack": 1,
         "defense": 0,
-        "mag_resist": 0,
+        "mag_resist": 1,
         "metal": 0,
         "license_required": "Accessories 2",
         "special": "Equip: Libra."
@@ -9807,7 +9969,9 @@
             "kind": "spell",
             "school": "Black Magick",
             "name": "Shock"
-        }
+        },
+        "limited": true,
+        "limited_until": "2026-03-10T01:27:09.646538"
     },
     "Scroll: Scourge": {
         "type": "consumable",
