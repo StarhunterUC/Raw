@@ -221,10 +221,10 @@
             "limited_until": null
         },
         "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-07T20:11:17.139652",
-        "rare_rotation_until": "2026-05-08T20:11:17.139652",
+        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
+        "rare_rotation_until": "2026-05-22T23:14:21.697852",
         "limited": true,
-        "limited_until": "2026-05-08T20:11:17.139652"
+        "limited_until": "2026-05-22T23:14:21.697852"
     },
     "Aged Turtle Shell": {
         "buy_price": null,
@@ -503,7 +503,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 70,
         "type": "consumable",
@@ -957,39 +958,27 @@
         "evasion": 5,
         "name": "Bastard Sword",
         "regions": [
-            "Global"
+            "EDEN Station",
+            "Ebonhaven Ascent",
+            "Hollow Reliquary",
+            "Lumina's Tomb",
+            "Memory's Brink",
+            "Ouroboros Station",
+            "Shrine of Final Warmth",
+            "Site 1",
+            "Sundering Spiral",
+            "The Mourndark Labyrinth",
+            "The Shattergrove",
+            "The Throne of the Final Eclipse",
+            "The Wreck of The Charity",
+            "Vilkas Station"
         ],
         "sell_price": 5005,
         "stackable": false,
         "subtype": "sword",
         "type": "weapon",
         "usable_in_combat": true,
-        "license_required": "Swords (6)",
-        "_rare_rotation_backup": {
-            "regions": [
-                "EDEN Station",
-                "Ebonhaven Ascent",
-                "Hollow Reliquary",
-                "Lumina's Tomb",
-                "Memory's Brink",
-                "Ouroboros Station",
-                "Shrine of Final Warmth",
-                "Site 1",
-                "Sundering Spiral",
-                "The Mourndark Labyrinth",
-                "The Shattergrove",
-                "The Throne of the Final Eclipse",
-                "The Wreck of The Charity",
-                "Vilkas Station"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-07T20:11:17.139652",
-        "rare_rotation_until": "2026-05-08T20:11:17.139652",
-        "limited": true,
-        "limited_until": "2026-05-08T20:11:17.139652"
+        "license_required": "Swords (6)"
     },
     "Bat Fang": {
         "buy_price": null,
@@ -2577,33 +2566,21 @@
         "license_required": "Light Armor (2)",
         "name": "Chromed Leathers",
         "regions": [
-            "Global"
+            "Archylte Steppe",
+            "Balfonheim",
+            "Bodhum",
+            "Bresha Ruins",
+            "Jagd Village",
+            "Luxerion",
+            "Mar'Quessa",
+            "Rabanastre",
+            "Thiraxa Bay",
+            "Mor Dhona"
         ],
         "sell_price": 110,
         "stackable": false,
         "subtype": "light_body",
-        "type": "armor",
-        "_rare_rotation_backup": {
-            "regions": [
-                "Archylte Steppe",
-                "Balfonheim",
-                "Bodhum",
-                "Bresha Ruins",
-                "Jagd Village",
-                "Luxerion",
-                "Mar'Quessa",
-                "Rabanastre",
-                "Thiraxa Bay",
-                "Mor Dhona"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-07T20:11:17.139652",
-        "rare_rotation_until": "2026-05-08T20:11:17.139652",
-        "limited": true,
-        "limited_until": "2026-05-08T20:11:17.139652"
+        "type": "armor"
     },
     "Chrono Sniper System": {
         "attack": 118,
@@ -2643,7 +2620,8 @@
             "Mar'Quessa",
             "Rabanastre",
             "Thiraxa Bay",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 30,
         "type": "consumable",
@@ -3331,6 +3309,19 @@
         "usable_in_combat": true,
         "license_required": "Greatswords (2)"
     },
+    "Defibrillator": {
+        "attack": 1000,
+        "buy_price": null,
+        "description": "Automated External Defibrillator (AED) revives downed teammates and electrocutes enemies.",
+        "name": "Defibrillator",
+        "regions": [],
+        "sell_price": 150,
+        "stackable": false,
+        "subtype": "high_caliber_pistol",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "on_hit": "KO (50%)"
+    },
     "Delicious Fish": {
         "buy_price": null,
         "description": "A valuable material that can be sold for gil.",
@@ -3601,27 +3592,39 @@
         "evasion": 5,
         "name": "Diamond Sword",
         "regions": [
-            "EDEN Station",
-            "Ebonhaven Ascent",
-            "Hollow Reliquary",
-            "Lumina's Tomb",
-            "Memory's Brink",
-            "Ouroboros Station",
-            "Shrine of Final Warmth",
-            "Site 1",
-            "Sundering Spiral",
-            "The Mourndark Labyrinth",
-            "The Shattergrove",
-            "The Throne of the Final Eclipse",
-            "The Wreck of The Charity",
-            "Vilkas Station"
+            "Global"
         ],
         "sell_price": 5960,
         "stackable": false,
         "subtype": "sword",
         "type": "weapon",
         "usable_in_combat": true,
-        "license_required": "Swords (7)"
+        "license_required": "Swords (7)",
+        "_rare_rotation_backup": {
+            "regions": [
+                "EDEN Station",
+                "Ebonhaven Ascent",
+                "Hollow Reliquary",
+                "Lumina's Tomb",
+                "Memory's Brink",
+                "Ouroboros Station",
+                "Shrine of Final Warmth",
+                "Site 1",
+                "Sundering Spiral",
+                "The Mourndark Labyrinth",
+                "The Shattergrove",
+                "The Throne of the Final Eclipse",
+                "The Wreck of The Charity",
+                "Vilkas Station"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
+        "rare_rotation_until": "2026-05-22T23:14:21.697852",
+        "limited": true,
+        "limited_until": "2026-05-22T23:14:21.697852"
     },
     "Doom Mace": {
         "attack": 75,
@@ -3912,7 +3915,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 20,
         "type": "consumable",
@@ -4370,7 +4374,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 20,
         "type": "consumable",
@@ -5314,10 +5319,17 @@
         "special": "Effect: Sets MP to 0 and prevents Mist Gauge from rising."
     },
     "Goddess's Grace": {
+        "name": "Goddess's Grace",
         "type": "shield",
+        "subtype": "shield",
         "slot": "off_hand",
         "rarity": "legendary",
-        "defense": 70,
+        "stackable": false,
+        "buy_price": null,
+        "sell_price": null,
+        "attack": 100,
+        "defense": 100,
+        "magick_power": 100,
         "evasion": 15,
         "magick_resist": 65,
         "admin_remove_only": true,
@@ -5326,7 +5338,7 @@
             "Reduces Lightning damage taken",
             "Small chance to nullify incoming magick"
         ],
-        "description": "A divine shield said to carry Etro’s protection. It shimmers with a faint crimson light when danger approaches."
+        "description": "A shield from Valhalla, borne by the sworn protector of the goddess Etro."
     },
     "Overture": {
         "type": "weapon",
@@ -5501,7 +5513,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 35,
         "type": "consumable",
@@ -5982,7 +5995,10 @@
         "buy_price": null,
         "description": "A valuable material that can be sold for gil.",
         "sell_price": 60,
-        "type": "junk"
+        "type": "junk",
+        "regions": [
+            "The Skyferry"
+        ]
     },
     "Halberd": {
         "attack": 75,
@@ -6145,7 +6161,8 @@
             "Mar'Quessa",
             "Rabanastre",
             "Thiraxa Bay",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 20,
         "type": "consumable",
@@ -6489,7 +6506,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 80,
         "type": "consumable",
@@ -8265,23 +8283,35 @@
         "evasion": 0,
         "name": "Loxley Bow",
         "regions": [
-            "EDEN Station",
-            "Ebonhaven Ascent",
-            "Lumina's Tomb",
-            "Necrohol of Nabudis",
-            "Site 1",
-            "Site 92",
-            "The Sepulcher of Echoed Laments",
-            "The Wreck of The Charity",
-            "Titan's Gate",
-            "Vilkas Station"
+            "Global"
         ],
         "sell_price": 4050,
         "stackable": false,
         "subtype": "bow",
         "type": "weapon",
         "usable_in_combat": true,
-        "license_required": "Bows (4)"
+        "license_required": "Bows (4)",
+        "_rare_rotation_backup": {
+            "regions": [
+                "EDEN Station",
+                "Ebonhaven Ascent",
+                "Lumina's Tomb",
+                "Necrohol of Nabudis",
+                "Site 1",
+                "Site 92",
+                "The Sepulcher of Echoed Laments",
+                "The Wreck of The Charity",
+                "Titan's Gate",
+                "Vilkas Station"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
+        "rare_rotation_until": "2026-05-22T23:14:21.697852",
+        "limited": true,
+        "limited_until": "2026-05-22T23:14:21.697852"
     },
     "Lumber": {
         "buy_price": null,
@@ -9056,26 +9086,38 @@
         "license_required": "Light Armor (10)",
         "name": "Minerva Bustier",
         "regions": [
-            "EDEN Station",
-            "Ebonhaven Ascent",
-            "Hollow Reliquary",
-            "Lumina's Tomb",
-            "Memory's Brink",
-            "Ouroboros Station",
-            "Shrine of Final Warmth",
-            "Site 1",
-            "Sundering Spiral",
-            "The Mourndark Labyrinth",
-            "The Shattergrove",
-            "The Throne of the Final Eclipse",
-            "The Wreck of The Charity",
-            "Vilkas Station",
-            "Mor Dhona"
+            "Global"
         ],
         "sell_price": 6695,
         "stackable": false,
         "subtype": "light_body",
-        "type": "armor"
+        "type": "armor",
+        "_rare_rotation_backup": {
+            "regions": [
+                "EDEN Station",
+                "Ebonhaven Ascent",
+                "Hollow Reliquary",
+                "Lumina's Tomb",
+                "Memory's Brink",
+                "Ouroboros Station",
+                "Shrine of Final Warmth",
+                "Site 1",
+                "Sundering Spiral",
+                "The Mourndark Labyrinth",
+                "The Shattergrove",
+                "The Throne of the Final Eclipse",
+                "The Wreck of The Charity",
+                "Vilkas Station",
+                "Mor Dhona"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
+        "rare_rotation_until": "2026-05-22T23:14:21.697852",
+        "limited": true,
+        "limited_until": "2026-05-22T23:14:21.697852"
     },
     "Mirage Vest": {
         "buy_price": 19200,
@@ -9736,7 +9778,8 @@
             "Mar'Quessa",
             "Rabanastre",
             "Thiraxa Bay",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 20,
         "type": "consumable",
@@ -10312,7 +10355,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 1610,
         "type": "consumable",
@@ -10571,7 +10615,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 30,
         "type": "consumable",
@@ -10739,7 +10784,8 @@
             "Mar'Quessa",
             "Rabanastre",
             "Thiraxa Bay",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 20,
         "type": "consumable",
@@ -10983,7 +11029,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 185,
         "type": "consumable",
@@ -11672,6 +11719,10 @@
         },
         "effects": {
             "teach_spell": "Aero"
+        },
+        "mp_cost": 14,
+        "costs": {
+            "mp": 14
         }
     },
     "Scroll: x2 XP{": {
@@ -11709,6 +11760,10 @@
         },
         "effects": {
             "teach_spell": "Aeroga"
+        },
+        "mp_cost": 38,
+        "costs": {
+            "mp": 38
         }
     },
     "Scroll: Aqua": {
@@ -11729,6 +11784,10 @@
         },
         "effects": {
             "teach_spell": "Aqua"
+        },
+        "mp_cost": 12,
+        "costs": {
+            "mp": 12
         }
     },
     "Scroll: Ardor": {
@@ -11748,6 +11807,10 @@
         },
         "effects": {
             "teach_spell": "Ardor"
+        },
+        "mp_cost": 60,
+        "costs": {
+            "mp": 60
         }
     },
     "Scroll: Arise": {
@@ -11764,6 +11827,10 @@
         },
         "effects": {
             "teach_spell": "Arise"
+        },
+        "mp_cost": 52,
+        "costs": {
+            "mp": 52
         }
     },
     "Scroll: Balance": {
@@ -11783,6 +11850,10 @@
         },
         "effects": {
             "teach_spell": "Balance"
+        },
+        "mp_cost": 18,
+        "costs": {
+            "mp": 18
         }
     },
     "Scroll: Berserk": {
@@ -11802,6 +11873,10 @@
         },
         "effects": {
             "teach_spell": "Berserk"
+        },
+        "mp_cost": 10,
+        "costs": {
+            "mp": 10
         }
     },
     "Scroll: Bio": {
@@ -11821,6 +11896,10 @@
         },
         "effects": {
             "teach_spell": "Bio"
+        },
+        "mp_cost": 24,
+        "costs": {
+            "mp": 24
         }
     },
     "Scroll: Bleed": {
@@ -11840,6 +11919,10 @@
         },
         "effects": {
             "teach_spell": "Bleed"
+        },
+        "mp_cost": 12,
+        "costs": {
+            "mp": 12
         }
     },
     "Scroll: Blind": {
@@ -11856,6 +11939,10 @@
         },
         "effects": {
             "teach_spell": "Blind"
+        },
+        "mp_cost": 10,
+        "costs": {
+            "mp": 10
         }
     },
     "Scroll: Blindga": {
@@ -11872,6 +11959,10 @@
         },
         "effects": {
             "teach_spell": "Blindga"
+        },
+        "mp_cost": 20,
+        "costs": {
+            "mp": 20
         }
     },
     "Scroll: Blindna": {
@@ -11891,6 +11982,10 @@
         },
         "effects": {
             "teach_spell": "Blindna"
+        },
+        "mp_cost": 6,
+        "costs": {
+            "mp": 6
         }
     },
     "Scroll: Blizzaga": {
@@ -11908,6 +12003,10 @@
         "regions": null,
         "effects": {
             "teach_spell": "Blizzaga"
+        },
+        "mp_cost": 42,
+        "costs": {
+            "mp": 42
         }
     },
     "Scroll: Blizzara": {
@@ -11927,6 +12026,10 @@
         },
         "effects": {
             "teach_spell": "Blizzara"
+        },
+        "mp_cost": 20,
+        "costs": {
+            "mp": 20
         }
     },
     "Scroll: Blizzard": {
@@ -11947,6 +12050,10 @@
         },
         "effects": {
             "teach_spell": "Blizzard"
+        },
+        "mp_cost": 10,
+        "costs": {
+            "mp": 10
         }
     },
     "Scroll: Break": {
@@ -11966,6 +12073,10 @@
         },
         "effects": {
             "teach_spell": "Break"
+        },
+        "mp_cost": 14,
+        "costs": {
+            "mp": 14
         }
     },
     "Scroll: Bubble": {
@@ -11983,6 +12094,10 @@
         "regions": null,
         "effects": {
             "teach_spell": "Bubble"
+        },
+        "mp_cost": 32,
+        "costs": {
+            "mp": 32
         }
     },
     "Scroll: Cleanse": {
@@ -11999,6 +12114,10 @@
         },
         "effects": {
             "teach_spell": "Cleanse"
+        },
+        "mp_cost": 20,
+        "costs": {
+            "mp": 20
         }
     },
     "Scroll: Confuse": {
@@ -12018,6 +12137,10 @@
         },
         "effects": {
             "teach_spell": "Confuse"
+        },
+        "mp_cost": 10,
+        "costs": {
+            "mp": 10
         }
     },
     "Scroll: Cura": {
@@ -12038,6 +12161,10 @@
         },
         "effects": {
             "teach_spell": "Cura"
+        },
+        "mp_cost": 26,
+        "costs": {
+            "mp": 26
         }
     },
     "Scroll: Curaga": {
@@ -12057,6 +12184,10 @@
         },
         "effects": {
             "teach_spell": "Curaga"
+        },
+        "mp_cost": 24,
+        "costs": {
+            "mp": 24
         }
     },
     "Scroll: Curaja": {
@@ -12074,6 +12205,10 @@
         "regions": null,
         "effects": {
             "teach_spell": "Curaja"
+        },
+        "mp_cost": 58,
+        "costs": {
+            "mp": 58
         }
     },
     "Scroll: Cure": {
@@ -12093,6 +12228,10 @@
         },
         "effects": {
             "teach_spell": "Cure"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Dark": {
@@ -12112,6 +12251,10 @@
         },
         "effects": {
             "teach_spell": "Dark"
+        },
+        "mp_cost": 10,
+        "costs": {
+            "mp": 10
         }
     },
     "Scroll: Darkga": {
@@ -12128,6 +12271,10 @@
         },
         "effects": {
             "teach_spell": "Darkga"
+        },
+        "mp_cost": 38,
+        "costs": {
+            "mp": 38
         }
     },
     "Scroll: Darkra": {
@@ -12147,6 +12294,10 @@
         },
         "effects": {
             "teach_spell": "Darkra"
+        },
+        "mp_cost": 24,
+        "costs": {
+            "mp": 24
         }
     },
     "Scroll: Death": {
@@ -12163,6 +12314,10 @@
         },
         "effects": {
             "teach_spell": "Death"
+        },
+        "mp_cost": 20,
+        "costs": {
+            "mp": 20
         }
     },
     "Scroll: Decoy": {
@@ -12180,6 +12335,10 @@
         "regions": null,
         "effects": {
             "teach_spell": "Decoy"
+        },
+        "mp_cost": 10,
+        "costs": {
+            "mp": 10
         }
     },
     "Scroll: Disable": {
@@ -12200,6 +12359,10 @@
         },
         "effects": {
             "teach_spell": "Disable"
+        },
+        "mp_cost": 14,
+        "costs": {
+            "mp": 14
         }
     },
     "Scroll: Drain": {
@@ -12216,6 +12379,10 @@
         },
         "effects": {
             "teach_spell": "Drain"
+        },
+        "mp_cost": 18,
+        "costs": {
+            "mp": 18
         }
     },
     "Scroll: Esuna": {
@@ -12235,6 +12402,10 @@
         },
         "effects": {
             "teach_spell": "Esuna"
+        },
+        "mp_cost": 24,
+        "costs": {
+            "mp": 24
         }
     },
     "Scroll: Esunaga": {
@@ -12254,6 +12425,10 @@
         },
         "effects": {
             "teach_spell": "Esunaga"
+        },
+        "mp_cost": 66,
+        "costs": {
+            "mp": 66
         }
     },
     "Scroll: Fira": {
@@ -12273,6 +12448,10 @@
         },
         "effects": {
             "teach_spell": "Fira"
+        },
+        "mp_cost": 16,
+        "costs": {
+            "mp": 16
         }
     },
     "Scroll: Firaga": {
@@ -12292,6 +12471,10 @@
         },
         "effects": {
             "teach_spell": "Firaga"
+        },
+        "mp_cost": 38,
+        "costs": {
+            "mp": 38
         }
     },
     "Scroll: Fire": {
@@ -12311,6 +12494,10 @@
         },
         "effects": {
             "teach_spell": "Fire"
+        },
+        "mp_cost": 6,
+        "costs": {
+            "mp": 6
         }
     },
     "Scroll: Flare": {
@@ -12327,6 +12514,10 @@
         },
         "effects": {
             "teach_spell": "Flare"
+        },
+        "mp_cost": 46,
+        "costs": {
+            "mp": 46
         }
     },
     "Scroll: Graviga": {
@@ -12343,6 +12534,10 @@
         },
         "effects": {
             "teach_spell": "Graviga"
+        },
+        "mp_cost": 28,
+        "costs": {
+            "mp": 28
         }
     },
     "Scroll: Gravity": {
@@ -12363,6 +12558,10 @@
         },
         "effects": {
             "teach_spell": "Gravity"
+        },
+        "mp_cost": 12,
+        "costs": {
+            "mp": 12
         }
     },
     "Scroll: Haste": {
@@ -12379,6 +12578,10 @@
         },
         "effects": {
             "teach_spell": "Haste"
+        },
+        "mp_cost": 18,
+        "costs": {
+            "mp": 18
         }
     },
     "Scroll: Hastega": {
@@ -12395,6 +12598,10 @@
         },
         "effects": {
             "teach_spell": "Hastega"
+        },
+        "mp_cost": 70,
+        "costs": {
+            "mp": 70
         }
     },
     "Scroll: Holy": {
@@ -12414,6 +12621,10 @@
         },
         "effects": {
             "teach_spell": "Holy"
+        },
+        "mp_cost": 48,
+        "costs": {
+            "mp": 48
         }
     },
     "Scroll: Immobilize": {
@@ -12433,6 +12644,10 @@
         },
         "effects": {
             "teach_spell": "Immobilize"
+        },
+        "mp_cost": 14,
+        "costs": {
+            "mp": 14
         }
     },
     "Scroll: Oil": {
@@ -12449,6 +12664,10 @@
         },
         "effects": {
             "teach_spell": "Oil"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Poison": {
@@ -12465,6 +12684,10 @@
         },
         "effects": {
             "teach_spell": "Poison"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Poisona": {
@@ -12484,6 +12707,10 @@
         },
         "effects": {
             "teach_spell": "Poisona"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Protect": {
@@ -12504,6 +12731,10 @@
         },
         "effects": {
             "teach_spell": "Protect"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Raise": {
@@ -12524,6 +12755,10 @@
         },
         "effects": {
             "teach_spell": "Raise"
+        },
+        "mp_cost": 20,
+        "costs": {
+            "mp": 20
         }
     },
     "Scroll: Reflect": {
@@ -12543,6 +12778,10 @@
         },
         "effects": {
             "teach_spell": "Reflect"
+        },
+        "mp_cost": 12,
+        "costs": {
+            "mp": 12
         }
     },
     "Scroll: Reflectga": {
@@ -12559,6 +12798,10 @@
         },
         "effects": {
             "teach_spell": "Reflectga"
+        },
+        "mp_cost": 24,
+        "costs": {
+            "mp": 24
         }
     },
     "Scroll: Reverse": {
@@ -12575,6 +12818,10 @@
         },
         "effects": {
             "teach_spell": "Reverse"
+        },
+        "mp_cost": 20,
+        "costs": {
+            "mp": 20
         }
     },
     "Scroll: Scathe": {
@@ -12591,6 +12838,10 @@
         },
         "effects": {
             "teach_spell": "Scathe"
+        },
+        "mp_cost": 70,
+        "costs": {
+            "mp": 70
         }
     },
     "Scroll: Scourge": {
@@ -12607,6 +12858,10 @@
         },
         "effects": {
             "teach_spell": "Scourge"
+        },
+        "mp_cost": 48,
+        "costs": {
+            "mp": 48
         }
     },
     "Scroll: Shell": {
@@ -12627,6 +12882,10 @@
         },
         "effects": {
             "teach_spell": "Shell"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Shock": {
@@ -12644,6 +12903,10 @@
         "regions": null,
         "effects": {
             "teach_spell": "Shock"
+        },
+        "mp_cost": 34,
+        "costs": {
+            "mp": 34
         }
     },
     "Scroll: Silence": {
@@ -12660,6 +12923,10 @@
         },
         "effects": {
             "teach_spell": "Silence"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Silencega": {
@@ -12679,6 +12946,10 @@
         },
         "effects": {
             "teach_spell": "Silencega"
+        },
+        "mp_cost": 22,
+        "costs": {
+            "mp": 22
         }
     },
     "Scroll: Sleep": {
@@ -12698,6 +12969,10 @@
         },
         "effects": {
             "teach_spell": "Sleep"
+        },
+        "mp_cost": 10,
+        "costs": {
+            "mp": 10
         }
     },
     "Scroll: Sleepga": {
@@ -12714,6 +12989,10 @@
         },
         "effects": {
             "teach_spell": "Sleepga"
+        },
+        "mp_cost": 26,
+        "costs": {
+            "mp": 26
         }
     },
     "Scroll: Slow": {
@@ -12733,6 +13012,10 @@
         },
         "effects": {
             "teach_spell": "Slow"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Slowga": {
@@ -12750,6 +13033,10 @@
         "regions": null,
         "effects": {
             "teach_spell": "Slowga"
+        },
+        "mp_cost": 24,
+        "costs": {
+            "mp": 24
         }
     },
     "Scroll: Stona": {
@@ -12769,6 +13056,10 @@
         },
         "effects": {
             "teach_spell": "Stona"
+        },
+        "mp_cost": 12,
+        "costs": {
+            "mp": 12
         }
     },
     "Scroll: Stop": {
@@ -12789,6 +13080,10 @@
         },
         "effects": {
             "teach_spell": "Stop"
+        },
+        "mp_cost": 20,
+        "costs": {
+            "mp": 20
         }
     },
     "Scroll: Syphon": {
@@ -12806,6 +13101,10 @@
         "regions": null,
         "effects": {
             "teach_spell": "Syphon"
+        },
+        "mp_cost": 2,
+        "costs": {
+            "mp": 2
         }
     },
     "Scroll: Thundaga": {
@@ -12825,6 +13124,10 @@
         },
         "effects": {
             "teach_spell": "Thundaga"
+        },
+        "mp_cost": 40,
+        "costs": {
+            "mp": 40
         }
     },
     "Scroll: Thundara": {
@@ -12844,6 +13147,10 @@
         },
         "effects": {
             "teach_spell": "Thundara"
+        },
+        "mp_cost": 18,
+        "costs": {
+            "mp": 18
         }
     },
     "Scroll: Thunder": {
@@ -12863,6 +13170,10 @@
         },
         "effects": {
             "teach_spell": "Thunder"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Toxify": {
@@ -12879,6 +13190,10 @@
         },
         "effects": {
             "teach_spell": "Toxify"
+        },
+        "mp_cost": 26,
+        "costs": {
+            "mp": 26
         }
     },
     "Scroll: Vanish": {
@@ -12895,6 +13210,10 @@
         },
         "effects": {
             "teach_spell": "Vanish"
+        },
+        "mp_cost": 12,
+        "costs": {
+            "mp": 12
         }
     },
     "Scroll: Vanishga": {
@@ -12914,6 +13233,10 @@
         },
         "effects": {
             "teach_spell": "Vanishga"
+        },
+        "mp_cost": 24,
+        "costs": {
+            "mp": 24
         }
     },
     "Scroll: Vox": {
@@ -12933,6 +13256,10 @@
         },
         "effects": {
             "teach_spell": "Vox"
+        },
+        "mp_cost": 8,
+        "costs": {
+            "mp": 8
         }
     },
     "Scroll: Warp": {
@@ -12949,6 +13276,10 @@
         },
         "effects": {
             "teach_spell": "Warp"
+        },
+        "mp_cost": 18,
+        "costs": {
+            "mp": 18
         }
     },
     "Seitengrat": {
@@ -13057,7 +13388,8 @@
             "Thiraxa Bay",
             "Yaschas Massif",
             "Yusnaan",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 320,
         "type": "consumable",
@@ -13236,8 +13568,8 @@
         "buy_price": null,
         "description": "A valuable raw material used in jewelry, ritual work, precision components, and trade.",
         "sell_price": 250,
-        "type": "junk"	
-    },		
+        "type": "junk"
+    },
     "Silver": {
         "buy_price": null,
         "description": "A valuable raw material used in jewelry, ritual work, precision components, and trade.",
@@ -13651,25 +13983,13 @@
         "license_required": "Guns (5)",
         "name": "Spica",
         "regions": [
-            "Global"
+            "Yggdrasil"
         ],
         "sell_price": 1960,
         "stackable": false,
         "subtype": "gun",
         "type": "weapon",
-        "usable_in_combat": true,
-        "_rare_rotation_backup": {
-            "regions": [
-                "Yggdrasil"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-07T20:11:17.139652",
-        "rare_rotation_until": "2026-05-08T20:11:17.139652",
-        "limited": true,
-        "limited_until": "2026-05-08T20:11:17.139652"
+        "usable_in_combat": true
     },
     "Spiral Incisor": {
         "buy_price": null,
@@ -14511,7 +14831,10 @@
         "buy_price": null,
         "description": "A valuable material that can be sold for gil.",
         "sell_price": 115,
-        "type": "junk"
+        "type": "junk",
+        "regions": [
+            "The Skyferry"
+        ]
     },
     "Thief's Cap": {
         "buy_price": 11160,
@@ -15699,7 +16022,8 @@
             "Memory's Brink",
             "Hollow Reliquary",
             "The Mourndark Labyrinth",
-            "Mor Dhona"
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 240,
         "type": "consumable",
@@ -16144,6 +16468,146 @@
         "usable_in_combat": true,
         "on_hit": "Doom (5%)"
     },
+    "Michael's Blade": {
+        "attack": 112,
+        "buy_price": null,
+        "description": "Kane Giovanni's Metaverse-forged angelic greatsword. Radiant edge tuned for heavy single-target strikes. Element: Holy.",
+        "evasion": 8,
+        "name": "Michael's Blade",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "greatsword",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "element": "holy",
+        "special": "Kane Giovanni signature weapon; not intended for shop sale."
+    },
+    "Yamato": {
+        "attack": 118,
+        "buy_price": null,
+        "description": "A legendary demonic katana capable of cutting through space itself. Extremely precise and dangerous in skilled hands. Element: Dark.",
+        "evasion": 28,
+        "name": "Yamato",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "katana",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "element": "dark",
+        "on_hit": "Bleed (15%)",
+        "special": "Kane Giovanni signature weapon; not intended for shop sale."
+    },
+    "Chain Bikes": {
+        "attack": 106,
+        "buy_price": null,
+        "description": "A brutal pair of motorcycle-like chain weapons from the Metaverse, used as crushing, revving melee arms. Element: Fire.",
+        "evasion": 4,
+        "name": "Chain Bikes",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "heavy_melee",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "element": "fire",
+        "on_hit": "Burn (10%)",
+        "special": "Kane Giovanni signature weapon; not intended for shop sale."
+    },
+    "Motorbike": {
+        "attack": 96,
+        "buy_price": null,
+        "description": "A Metaverse combat motorbike weaponized for ramming attacks, spinning strikes, and high-speed impact combat.",
+        "evasion": 6,
+        "name": "Motorbike",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "heavy_melee",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "on_hit": "Stun (8%)",
+        "special": "Kane Giovanni signature weapon; not intended for shop sale."
+    },
+    "Demonic and Angelic Dual Guns": {
+        "attack": 88,
+        "buy_price": null,
+        "description": "A paired set of pistols channeling opposing demonic and angelic energy. Balanced for rapid ranged pressure. Element: Holy/Dark.",
+        "evasion": 10,
+        "name": "Demonic and Angelic Dual Guns",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "dual_guns",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "element": "holy/dark",
+        "special": "Kane Giovanni signature weapon; not intended for shop sale."
+    },
+    "Sawed-Off Shotgun": {
+        "attack": 92,
+        "buy_price": null,
+        "description": "A compact double-barrel shotgun built for brutal close-range bursts and stagger pressure.",
+        "evasion": 2,
+        "name": "Sawed-Off Shotgun",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "shotgun",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "on_hit": "Stun (5%)",
+        "special": "Kane Giovanni signature weapon; not intended for shop sale."
+    },
+    "Twin Rocket Launcher": {
+        "attack": 124,
+        "buy_price": null,
+        "description": "A paired rocket launcher system designed for devastating explosive volleys and wide-impact pressure. Element: Fire.",
+        "evasion": -4,
+        "name": "Twin Rocket Launcher",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "launcher",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "element": "fire",
+        "special": "Kane Giovanni signature weapon; explosive weapon. Not intended for shop sale."
+    },
+    "Revolver Nemisis": {
+        "attack": 100,
+        "buy_price": null,
+        "description": "A heavy Metaverse revolver with demonic recoil and high stopping power. The name is preserved as provided: Nemisis.",
+        "evasion": 4,
+        "name": "Revolver Nemisis",
+        "regions": [
+            "Global"
+        ],
+        "sell_price": 0,
+        "stackable": false,
+        "subtype": "high_caliber_pistol",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "element": "dark",
+        "slot": "off_hand",
+        "on_hit": "Doom (3%)",
+        "special": "Kane Giovanni signature weapon; not intended for shop sale."
+    },
     "Iron": {
         "buy_price": null,
         "description": "A sturdy raw material used for weapons, armor plates, tools, and industrial repairs.",
@@ -16173,5 +16637,110 @@
         "description": "A valuable green gemstone prized for luxury trade, nature-aspected crafts, and fine jewelry.",
         "sell_price": 1500,
         "type": "junk"
+    },
+    "Bacchus's Wine": {
+        "name": "Bacchus's Wine",
+        "buy_price": 140,
+        "sell_price": 55,
+        "type": "consumable",
+        "description": "Inflicts Berserk on one target.",
+        "effects": {
+            "inflict_status": "Berserk"
+        },
+        "regions": [
+            "The Skyferry"
+        ],
+        "stackable": true,
+        "usable_in_combat": true
+    },
+    "Dispel Mote": {
+        "name": "Dispel Mote",
+        "buy_price": 275,
+        "sell_price": 110,
+        "type": "consumable",
+        "description": "Casts Dispel when used.",
+        "effects": {
+            "cast_spell": "Dispel"
+        },
+        "regions": [
+            "The Skyferry"
+        ],
+        "stackable": true,
+        "usable_in_combat": true
+    },
+    "Knot of Rust": {
+        "name": "Knot of Rust",
+        "buy_price": 25,
+        "sell_price": 10,
+        "type": "consumable",
+        "description": "Deals random non-elemental damage to one foe.",
+        "effects": {
+            "damage_type": "non_elemental_random"
+        },
+        "regions": [
+            "The Skyferry"
+        ],
+        "stackable": true,
+        "usable_in_combat": true
+    },
+    "Lightning Fang": {
+        "name": "Lightning Fang",
+        "buy_price": 230,
+        "sell_price": 90,
+        "type": "consumable",
+        "description": "Deals Lightning-element damage to one foe.",
+        "effects": {
+            "damage_element": "Lightning"
+        },
+        "regions": [
+            "The Skyferry"
+        ],
+        "stackable": true,
+        "usable_in_combat": true
+    },
+    "Reflectga Mote": {
+        "name": "Reflectga Mote",
+        "buy_price": 805,
+        "sell_price": 320,
+        "type": "consumable",
+        "description": "Casts Reflectga when used.",
+        "effects": {
+            "cast_spell": "Reflectga"
+        },
+        "regions": [
+            "The Skyferry"
+        ],
+        "stackable": true,
+        "usable_in_combat": true
+    },
+    "Rime Fang": {
+        "name": "Rime Fang",
+        "buy_price": 230,
+        "sell_price": 90,
+        "type": "consumable",
+        "description": "Deals Ice-element damage to one foe.",
+        "effects": {
+            "damage_element": "Ice"
+        },
+        "regions": [
+            "The Skyferry"
+        ],
+        "stackable": true,
+        "usable_in_combat": true
+    },
+    "Soleil Fang": {
+        "name": "Soleil Fang",
+        "buy_price": 230,
+        "sell_price": 90,
+        "type": "consumable",
+        "description": "Deals Fire-element damage to one foe.",
+        "effects": {
+            "damage_element": "Fire"
+        },
+        "regions": [
+            "The Skyferry"
+        ],
+        "stackable": true,
+        "usable_in_combat": true
     }
 }
