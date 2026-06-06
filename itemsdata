@@ -197,7 +197,14 @@
         "stackable": false,
         "description": "Nullifies weather/terrain modifiers for elemental damage. Element: Half: Wind Requires License: Accessories 14",
         "regions": [
-            "Global"
+            "Milsante",
+            "The Stillshrine of Etro",
+            "Yaschas Massif",
+            "Thiraxa Bay",
+            "Balfonheim",
+            "Necrohol of Nabudis",
+            "Titan's Gate",
+            "Ebonhaven Ascent"
         ],
         "defense": 0,
         "mag_resist": 0,
@@ -205,26 +212,7 @@
         "metal": 0,
         "element": "Half: Wind",
         "license_required": "Accessories (14)",
-        "special": "Nullifies weather/terrain modifiers for elemental damage.",
-        "_rare_rotation_backup": {
-            "regions": [
-                "Milsante",
-                "The Stillshrine of Etro",
-                "Yaschas Massif",
-                "Thiraxa Bay",
-                "Balfonheim",
-                "Necrohol of Nabudis",
-                "Titan's Gate",
-                "Ebonhaven Ascent"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
-        "rare_rotation_until": "2026-05-22T23:14:21.697852",
-        "limited": true,
-        "limited_until": "2026-05-22T23:14:21.697852"
+        "special": "Nullifies weather/terrain modifiers for elemental damage."
     },
     "Aged Turtle Shell": {
         "buy_price": null,
@@ -2248,22 +2236,34 @@
         "mp": 40,
         "name": "Carmagnole",
         "regions": [
-            "EDEN Station",
-            "Ebonhaven Ascent",
-            "Lumina's Tomb",
-            "Necrohol of Nabudis",
-            "Site 1",
-            "Site 92",
-            "The Sepulcher of Echoed Laments",
-            "The Wreck of The Charity",
-            "Titan's Gate",
-            "Vilkas Station",
-            "Mor Dhona"
+            "Global"
         ],
         "sell_price": 3185,
         "stackable": false,
         "subtype": "mystic_body",
-        "type": "armor"
+        "type": "armor",
+        "_rare_rotation_backup": {
+            "regions": [
+                "EDEN Station",
+                "Ebonhaven Ascent",
+                "Lumina's Tomb",
+                "Necrohol of Nabudis",
+                "Site 1",
+                "Site 92",
+                "The Sepulcher of Echoed Laments",
+                "The Wreck of The Charity",
+                "Titan's Gate",
+                "Vilkas Station",
+                "Mor Dhona"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
+        "rare_rotation_until": "2026-06-07T01:56:35.987989",
+        "limited": true,
+        "limited_until": "2026-06-07T01:56:35.987989"
     },
     "Cat-ear Hood": {
         "name": "Cat-ear Hood",
@@ -2483,6 +2483,7 @@
         "buy_price": 1000,
         "description": "A magick staff tuned for elemental or arcane amplification.",
         "evasion": 8,
+        "magick_power": 3,
         "name": "Cherry Staff",
         "regions": [
             "Archades",
@@ -3457,6 +3458,20 @@
         "type": "weapon",
         "usable_in_combat": true
     },
+    "Diablos Stabilizer": {
+        "type": "key_item",
+        "subtype": "curse_treatment",
+        "description": "A rare stabilizing agent that suppresses the Curse of Diablos but does not fully remove it.",
+        "effects": {
+            "reduce_status_stage": {
+                "status": "Curse of Diablos",
+                "amount": 1
+            }
+        },
+        "usable_in_combat": true,
+        "sell_price": null,
+        "buy_price": null
+    },
     "Diakon Halycon": {
         "buy_price": null,
         "description": "A valuable material that can be sold for gil.",
@@ -3592,39 +3607,27 @@
         "evasion": 5,
         "name": "Diamond Sword",
         "regions": [
-            "Global"
+            "EDEN Station",
+            "Ebonhaven Ascent",
+            "Hollow Reliquary",
+            "Lumina's Tomb",
+            "Memory's Brink",
+            "Ouroboros Station",
+            "Shrine of Final Warmth",
+            "Site 1",
+            "Sundering Spiral",
+            "The Mourndark Labyrinth",
+            "The Shattergrove",
+            "The Throne of the Final Eclipse",
+            "The Wreck of The Charity",
+            "Vilkas Station"
         ],
         "sell_price": 5960,
         "stackable": false,
         "subtype": "sword",
         "type": "weapon",
         "usable_in_combat": true,
-        "license_required": "Swords (7)",
-        "_rare_rotation_backup": {
-            "regions": [
-                "EDEN Station",
-                "Ebonhaven Ascent",
-                "Hollow Reliquary",
-                "Lumina's Tomb",
-                "Memory's Brink",
-                "Ouroboros Station",
-                "Shrine of Final Warmth",
-                "Site 1",
-                "Sundering Spiral",
-                "The Mourndark Labyrinth",
-                "The Shattergrove",
-                "The Throne of the Final Eclipse",
-                "The Wreck of The Charity",
-                "Vilkas Station"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
-        "rare_rotation_until": "2026-05-22T23:14:21.697852",
-        "limited": true,
-        "limited_until": "2026-05-22T23:14:21.697852"
+        "license_required": "Swords (7)"
     },
     "Doom Mace": {
         "attack": 75,
@@ -5368,6 +5371,33 @@
         ],
         "description": "Ceremonial armor worn by Etro’s chosen champion. It radiates divine protection and responds to its wielder’s will."
     },
+    "Griefbearer": {
+        "type": "weapon",
+        "slot": "main_hand",
+        "rarity": "legendary",
+        "admin_remove_only": true,
+        "attack": 50,
+        "magick_power": 50,
+        "description": "A longsword carved from the flesh of the Mothercrystal herself, bestowed to the legendary Warrior of Light. This sword, once equipped, cannot be broken or stolen. Betrayal of the sword will cripple the weilder for breaking their oath to Hydaelyn."
+    },
+    "Griefbearer (Light)": {
+        "type": "weapon",
+        "slot": "main_hand",
+        "rarity": "legendary",
+        "admin_remove_only": true,
+        "attack": 30,
+        "magick_power": 60,
+        "description": "A longsword carved from the flesh of the Mothercrystal herself, bestowed to the legendary Warrior of Light. This sword, once equipped, cannot be broken or stolen. Betrayal of the sword will cripple the weilder for breaking their oath to Hydaelyn."
+    },
+    "Griefbearer (dark)": {
+        "type": "weapon",
+        "slot": "main_hand",
+        "rarity": "legendary",
+        "admin_remove_only": true,
+        "attack": 100,
+        "magick_power": 5,
+        "description": "A longsword carved from the flesh of the Mothercrystal herself, bestowed to the legendary Warrior of Light. This sword, once equipped, cannot be broken or stolen. Betrayal of the sword will cripple the weilder for breaking their oath to Hydaelyn."
+    },
     "Goggle Mask": {
         "buy_price": 5880,
         "description": "Protects the eyes and grants immunity to Blind.",
@@ -5470,51 +5500,7 @@
         "buy_price": 90,
         "description": "Removes Petrify and Stone.",
         "regions": [
-            "Pharos",
-            "Balfonheim",
-            "Nabudis",
-            "Milsante",
-            "The Wailing Pit",
-            "Necrohol of Nabudis",
-            "The Stillshrine of Etro",
-            "Mar'Quessa",
-            "Thiraxa Bay",
-            "Jagd Village",
-            "Bel Vahran",
-            "Vhal Ridoran",
-            "Site 92",
-            "Site 26",
-            "Site 1",
-            "The Wreck of The Charity",
-            "The Throne of the Final Eclipse",
-            "Luxerion",
-            "Archylte Steppe",
-            "The Shattered Tribunal",
-            "Archades",
-            "Titan's Gate",
-            "Ogir-Yensa Sandsea",
-            "Nam-Yensa Sandsea",
-            "Oerba",
-            "Ebonhaven Ascent",
-            "Bodhum",
-            "Bresha Ruins",
-            "Yaschas Massif",
-            "Yusnaan",
-            "Rabanastre",
-            "EDEN Station",
-            "The Paddraean Archaeopolis",
-            "The Sepulcher of Echoed Laments",
-            "Lumina's Tomb",
-            "Vilkas Station",
-            "Ouroboros Station",
-            "Shrine of Final Warmth",
-            "The Shattergrove",
-            "Sundering Spiral",
-            "Memory's Brink",
-            "Hollow Reliquary",
-            "The Mourndark Labyrinth",
-            "Mor Dhona",
-            "The Skyferry"
+            "Global"
         ],
         "sell_price": 35,
         "type": "consumable",
@@ -5523,7 +5509,63 @@
                 "Petrify",
                 "Stone"
             ]
-        }
+        },
+        "_rare_rotation_backup": {
+            "regions": [
+                "Pharos",
+                "Balfonheim",
+                "Nabudis",
+                "Milsante",
+                "The Wailing Pit",
+                "Necrohol of Nabudis",
+                "The Stillshrine of Etro",
+                "Mar'Quessa",
+                "Thiraxa Bay",
+                "Jagd Village",
+                "Bel Vahran",
+                "Vhal Ridoran",
+                "Site 92",
+                "Site 26",
+                "Site 1",
+                "The Wreck of The Charity",
+                "The Throne of the Final Eclipse",
+                "Luxerion",
+                "Archylte Steppe",
+                "The Shattered Tribunal",
+                "Archades",
+                "Titan's Gate",
+                "Ogir-Yensa Sandsea",
+                "Nam-Yensa Sandsea",
+                "Oerba",
+                "Ebonhaven Ascent",
+                "Bodhum",
+                "Bresha Ruins",
+                "Yaschas Massif",
+                "Yusnaan",
+                "Rabanastre",
+                "EDEN Station",
+                "The Paddraean Archaeopolis",
+                "The Sepulcher of Echoed Laments",
+                "Lumina's Tomb",
+                "Vilkas Station",
+                "Ouroboros Station",
+                "Shrine of Final Warmth",
+                "The Shattergrove",
+                "Sundering Spiral",
+                "Memory's Brink",
+                "Hollow Reliquary",
+                "The Mourndark Labyrinth",
+                "Mor Dhona",
+                "The Skyferry"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
+        "rare_rotation_until": "2026-06-07T01:56:35.987989",
+        "limited": true,
+        "limited_until": "2026-06-07T01:56:35.987989"
     },
     "Golden Amulet": {
         "name": "Golden Amulet",
@@ -8082,7 +8124,7 @@
     },
     "Librascope": {
         "buy_price": 11500,
-        "description": "Reveals detailed information on target.",
+        "description": "Automatically performs a full Libra II scan, revealing advanced statistics, affinities, abilities, traits, and Chaos-obscured data. Consumed on use.",
         "name": "Librascope",
         "regions": [
             "EDEN Station",
@@ -8105,8 +8147,9 @@
         "stackable": true,
         "type": "consumable",
         "effects": {
-            "apply_status": "Libra"
-        }
+            "apply_status": "Libra II"
+        },
+        "usable_in_combat": true
     },
     "Libre Gem": {
         "buy_price": null,
@@ -8283,35 +8326,23 @@
         "evasion": 0,
         "name": "Loxley Bow",
         "regions": [
-            "Global"
+            "EDEN Station",
+            "Ebonhaven Ascent",
+            "Lumina's Tomb",
+            "Necrohol of Nabudis",
+            "Site 1",
+            "Site 92",
+            "The Sepulcher of Echoed Laments",
+            "The Wreck of The Charity",
+            "Titan's Gate",
+            "Vilkas Station"
         ],
         "sell_price": 4050,
         "stackable": false,
         "subtype": "bow",
         "type": "weapon",
         "usable_in_combat": true,
-        "license_required": "Bows (4)",
-        "_rare_rotation_backup": {
-            "regions": [
-                "EDEN Station",
-                "Ebonhaven Ascent",
-                "Lumina's Tomb",
-                "Necrohol of Nabudis",
-                "Site 1",
-                "Site 92",
-                "The Sepulcher of Echoed Laments",
-                "The Wreck of The Charity",
-                "Titan's Gate",
-                "Vilkas Station"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
-        "rare_rotation_until": "2026-05-22T23:14:21.697852",
-        "limited": true,
-        "limited_until": "2026-05-22T23:14:21.697852"
+        "license_required": "Bows (4)"
     },
     "Lumber": {
         "buy_price": null,
@@ -9086,38 +9117,26 @@
         "license_required": "Light Armor (10)",
         "name": "Minerva Bustier",
         "regions": [
-            "Global"
+            "EDEN Station",
+            "Ebonhaven Ascent",
+            "Hollow Reliquary",
+            "Lumina's Tomb",
+            "Memory's Brink",
+            "Ouroboros Station",
+            "Shrine of Final Warmth",
+            "Site 1",
+            "Sundering Spiral",
+            "The Mourndark Labyrinth",
+            "The Shattergrove",
+            "The Throne of the Final Eclipse",
+            "The Wreck of The Charity",
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 6695,
         "stackable": false,
         "subtype": "light_body",
-        "type": "armor",
-        "_rare_rotation_backup": {
-            "regions": [
-                "EDEN Station",
-                "Ebonhaven Ascent",
-                "Hollow Reliquary",
-                "Lumina's Tomb",
-                "Memory's Brink",
-                "Ouroboros Station",
-                "Shrine of Final Warmth",
-                "Site 1",
-                "Sundering Spiral",
-                "The Mourndark Labyrinth",
-                "The Shattergrove",
-                "The Throne of the Final Eclipse",
-                "The Wreck of The Charity",
-                "Vilkas Station",
-                "Mor Dhona"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-05-21T23:14:21.697852",
-        "rare_rotation_until": "2026-05-22T23:14:21.697852",
-        "limited": true,
-        "limited_until": "2026-05-22T23:14:21.697852"
+        "type": "armor"
     },
     "Mirage Vest": {
         "buy_price": 19200,
@@ -12804,6 +12823,32 @@
             "mp": 24
         }
     },
+    "Scroll: Regen": {
+        "type": "consumable",
+        "subtype": "spell_scroll",
+        "buy_price": 2185,
+        "sell_price": 875,
+        "description": "Teaches White Magick: Regen. Bestows Regen on one ally, restoring HP over time. Regen pulses every 1.5 seconds and lasts 90 + (Vitality × 0.9) seconds.",
+        "license_required": "White Magick 6",
+        "regions": [
+            "Rabanastre",
+            "Eruyt Village",
+            "The Stillshrine of Etro",
+            "The Skyferry"
+        ],
+        "teaches": {
+            "kind": "spell",
+            "school": "White Magick",
+            "name": "Regen"
+        },
+        "effects": {
+            "teach_spell": "Regen"
+        },
+        "mp_cost": 16,
+        "costs": {
+            "mp": 16
+        }
+    },
     "Scroll: Reverse": {
         "type": "consumable",
         "subtype": "spell_scroll",
@@ -12822,7 +12867,20 @@
         "mp_cost": 20,
         "costs": {
             "mp": 20
-        }
+        },
+        "regions": [
+            "Global"
+        ],
+        "_rare_rotation_backup": {
+            "regions": null,
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
+        "rare_rotation_until": "2026-06-07T01:56:35.987989",
+        "limited": true,
+        "limited_until": "2026-06-07T01:56:35.987989"
     },
     "Scroll: Scathe": {
         "type": "consumable",
@@ -13905,12 +13963,12 @@
         "type": "junk"
     },
     "Soulrender": {
-        "attack": 600,
-        "mag_pwr": 600,
+        "attack": 155,
+        "mag_pwr": 96,
         "buy_price": null,
         "description": "? ? ?",
         "element": "chaos",
-        "name": "Chaos's Revenge",
+        "name": "Soulrender",
         "regions": [
             "The Sepulcher of Echoed Laments",
             "Titan's Gate"
@@ -13919,7 +13977,8 @@
         "stackable": false,
         "subtype": "greatsword",
         "type": "weapon",
-        "usable_in_combat": true
+        "usable_in_combat": true,
+        "special": "Chaos Brand: Boosts Chaos-element abilities slightly, but the wielder takes minor recoil when using Chaos attacks."
     },
     "Spear": {
         "attack": 26,
@@ -15276,14 +15335,26 @@
         "evasion": 2,
         "name": "USAS-12",
         "regions": [
-            "Ebonhaven Ascent",
-            "Yggdrasil"
+            "Global"
         ],
         "sell_price": 2230,
         "stackable": false,
         "subtype": "shotgun",
         "type": "weapon",
-        "usable_in_combat": true
+        "usable_in_combat": true,
+        "_rare_rotation_backup": {
+            "regions": [
+                "Ebonhaven Ascent",
+                "Yggdrasil"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
+        "rare_rotation_until": "2026-06-07T01:56:35.987989",
+        "limited": true,
+        "limited_until": "2026-06-07T01:56:35.987989"
     },
     "Uzi Pro": {
         "attack": 52,
@@ -16742,5 +16813,1131 @@
         ],
         "stackable": true,
         "usable_in_combat": true
+    },
+    "Dark Mote": {
+        "name": "Dark Mote",
+        "type": "consumable",
+        "buy_price": null,
+        "sell_price": 125,
+        "stackable": true,
+        "usable_in_combat": true,
+        "description": "Deals dark-aspected mote damage to one target.",
+        "effects": {
+            "damage": 180,
+            "element": "Dark"
+        }
+    },
+    "Warp Mote": {
+        "name": "Warp Mote",
+        "type": "consumable",
+        "buy_price": null,
+        "sell_price": 150,
+        "stackable": true,
+        "usable_in_combat": true,
+        "description": "Attempts to displace a target with unstable space magick.",
+        "effects": {
+            "damage": 120,
+            "status": "X-Zone",
+            "status_chance": 0.15,
+            "element": "Arcane"
+        }
+    },
+    "Aero Mote": {
+        "name": "Aero Mote",
+        "type": "consumable",
+        "buy_price": null,
+        "sell_price": 135,
+        "stackable": true,
+        "usable_in_combat": true,
+        "description": "Deals wind-aspected mote damage to one target.",
+        "effects": {
+            "damage": 170,
+            "element": "Wind"
+        }
+    },
+    "Water Mote": {
+        "name": "Water Mote",
+        "type": "consumable",
+        "buy_price": null,
+        "sell_price": 135,
+        "stackable": true,
+        "usable_in_combat": true,
+        "description": "Deals water-aspected mote damage to one target.",
+        "effects": {
+            "damage": 170,
+            "element": "Water"
+        }
+    },
+    "Vaccine": {
+        "name": "Vaccine",
+        "type": "consumable",
+        "buy_price": 500,
+        "sell_price": 175,
+        "stackable": true,
+        "usable_in_combat": true,
+        "description": "Removes Disease.",
+        "effects": {
+            "cure_status": "Disease"
+        }
+    },
+    "Jackboots": {
+        "name": "Jackboots",
+        "type": "accessory",
+        "subtype": "accessory",
+        "buy_price": null,
+        "sell_price": 350,
+        "stackable": false,
+        "description": "Imperial-issue boots. Modest speed and resistance to Immobilize.",
+        "spd": 2,
+        "special": "Immune: Immobilize.",
+        "effects": [
+            "Immobilize Immunity"
+        ]
+    },
+    "Sallet": {
+        "name": "Sallet",
+        "type": "armor",
+        "subtype": "heavy_helm",
+        "buy_price": 300,
+        "sell_price": 135,
+        "stackable": false,
+        "description": "Simple Imperial helm used by soldiers and mastiff handlers.",
+        "defense": 6,
+        "mag_resist": 3,
+        "regions": null
+    },
+    "Pebble": {
+        "name": "Pebble",
+        "type": "junk",
+        "buy_price": null,
+        "sell_price": 2,
+        "description": "A worthless little stone. Mostly useful as proof something was poached."
+    },
+    "Vyrrah’s Lament": {
+        "name": "Vyrrah’s Lament",
+        "type": "weapon",
+        "subtype": "divine_soul_spear",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": true,
+        "soul_locked": true,
+        "bound_to": "Lumina Farron",
+        "element": "Holy",
+        "attack": 255,
+        "mag_pwr": 255,
+        "evasion": 40,
+        "spd": 300,
+        "range": "2 ft to 200 ft; variable by wielder intent",
+        "durability": "Infinite; reforms when Lumina's will returns",
+        "description": "The Spear of the Breaking Dawn — a soul-locked divine spear born when Lumina Farron refused erasure during Father Farron’s Final Ascension Ritual. It is the shape of her refusal, her will made manifest.",
+        "regions": [
+            "Yggdrasil"
+        ],
+        "effects": [
+            "Soul Phase: ignores armor, barriers, divine shields, and spiritual defenses when wielded by Lumina.",
+            "Emotion Engine: amplifies Lumina's magick tenfold through weaponized emotion.",
+            "Return to Sender: reforms or returns to Lumina if shattered, banished, lost, or dispersed.",
+            "Silence Halo: creates a 30 ft anti-magick field unless Lumina permits casting.",
+            "Echo Strike: strikes the physical and spiritual realms simultaneously.",
+            "Oblivion Wound: wounds weaken essence and are almost impossible to heal.",
+            "Holy Corruption: non-bonded wielders suffer corrosive radiance and invasive visions.",
+            "Final Limit — Terminus Vitae: absolute stillness followed by fate severance; target erasure requires GM approval."
+        ],
+        "special": "Soul-locked to Lumina Farron. Anyone else attempting to wield it is judged by corrosive holy radiance. Terminus Vitae and memory/concept erasure effects are narrative/GM-only.",
+        "lore_source": "Vyrrah’s Lament pasted lore entry"
+    },
+    "Eidolon Summon Crystal: Anima": {
+        "name": "Eidolon Summon Crystal: Anima",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Anima",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Anima",
+        "description": "A soul-resonant key crystal attuned to Anima. Holding it marks the bearer as having access to the Anima Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Anima.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Anima. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Ark": {
+        "name": "Eidolon Summon Crystal: Ark",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Ark",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Ark",
+        "description": "A soul-resonant key crystal attuned to Ark. Holding it marks the bearer as having access to the Ark Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Ark.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Ark. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Asura": {
+        "name": "Eidolon Summon Crystal: Asura",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Asura",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Asura",
+        "description": "A soul-resonant key crystal attuned to Asura. Holding it marks the bearer as having access to the Asura Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Asura.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Asura. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Atomos": {
+        "name": "Eidolon Summon Crystal: Atomos",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Atomos",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Atomos",
+        "description": "A soul-resonant key crystal attuned to Atomos. Holding it marks the bearer as having access to the Atomos Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Atomos.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Atomos. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Bahamut": {
+        "name": "Eidolon Summon Crystal: Bahamut",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Bahamut",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Bahamut",
+        "description": "A soul-resonant key crystal attuned to Bahamut. Holding it marks the bearer as having access to the Bahamut Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Bahamut.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Bahamut. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Bismarck": {
+        "name": "Eidolon Summon Crystal: Bismarck",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Bismarck",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Bismarck",
+        "description": "A soul-resonant key crystal attuned to Bismarck. Holding it marks the bearer as having access to the Bismarck Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Bismarck.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Bismarck. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Brynhildr": {
+        "name": "Eidolon Summon Crystal: Brynhildr",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Brynhildr",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Brynhildr",
+        "description": "A soul-resonant key crystal attuned to Brynhildr. Holding it marks the bearer as having access to the Brynhildr Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Brynhildr.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Brynhildr. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Cactuar": {
+        "name": "Eidolon Summon Crystal: Cactuar",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Cactuar",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Cactuar",
+        "description": "A soul-resonant key crystal attuned to Cactuar. Holding it marks the bearer as having access to the Cactuar Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Cactuar.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Cactuar. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Carbuncle": {
+        "name": "Eidolon Summon Crystal: Carbuncle",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Carbuncle",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Carbuncle",
+        "description": "A soul-resonant key crystal attuned to Carbuncle. Holding it marks the bearer as having access to the Carbuncle Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Carbuncle.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Carbuncle. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Catoblepas": {
+        "name": "Eidolon Summon Crystal: Catoblepas",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Catoblepas",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Catoblepas",
+        "description": "A soul-resonant key crystal attuned to Catoblepas. Holding it marks the bearer as having access to the Catoblepas Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Catoblepas.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Catoblepas. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Cerberus": {
+        "name": "Eidolon Summon Crystal: Cerberus",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Cerberus",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Cerberus",
+        "description": "A soul-resonant key crystal attuned to Cerberus. Holding it marks the bearer as having access to the Cerberus Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Cerberus.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Cerberus. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Doomtrain": {
+        "name": "Eidolon Summon Crystal: Doomtrain",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Doomtrain",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Doomtrain",
+        "description": "A soul-resonant key crystal attuned to Doomtrain. Holding it marks the bearer as having access to the Doomtrain Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Doomtrain.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Doomtrain. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Eden": {
+        "name": "Eidolon Summon Crystal: Eden",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Eden",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Eden",
+        "description": "A soul-resonant key crystal attuned to Eden. Holding it marks the bearer as having access to the Eden Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Eden.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Eden. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Fenrir": {
+        "name": "Eidolon Summon Crystal: Fenrir",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Fenrir",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Fenrir",
+        "description": "A soul-resonant key crystal attuned to Fenrir. Holding it marks the bearer as having access to the Fenrir Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Fenrir.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Fenrir. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Garuda": {
+        "name": "Eidolon Summon Crystal: Garuda",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Garuda",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Garuda",
+        "description": "A soul-resonant key crystal attuned to Garuda. Holding it marks the bearer as having access to the Garuda Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Garuda.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Garuda. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Golem": {
+        "name": "Eidolon Summon Crystal: Golem",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Golem",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Golem",
+        "description": "A soul-resonant key crystal attuned to Golem. Holding it marks the bearer as having access to the Golem Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Golem.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Golem. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Hades": {
+        "name": "Eidolon Summon Crystal: Hades",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Hades",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Hades",
+        "description": "A soul-resonant key crystal attuned to Hades. Holding it marks the bearer as having access to the Hades Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Hades.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Hades. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Hecatoncheir": {
+        "name": "Eidolon Summon Crystal: Hecatoncheir",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Hecatoncheir",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Hecatoncheir",
+        "description": "A soul-resonant key crystal attuned to Hecatoncheir. Holding it marks the bearer as having access to the Hecatoncheir Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Hecatoncheir.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Hecatoncheir. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Ifrit": {
+        "name": "Eidolon Summon Crystal: Ifrit",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Ifrit",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Ifrit",
+        "description": "A soul-resonant key crystal attuned to Ifrit. Holding it marks the bearer as having access to the Ifrit Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Ifrit.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Ifrit. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Ixion": {
+        "name": "Eidolon Summon Crystal: Ixion",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Ixion",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Ixion",
+        "description": "A soul-resonant key crystal attuned to Ixion. Holding it marks the bearer as having access to the Ixion Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Ixion.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Ixion. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Kirin": {
+        "name": "Eidolon Summon Crystal: Kirin",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Kirin",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Kirin",
+        "description": "A soul-resonant key crystal attuned to Kirin. Holding it marks the bearer as having access to the Kirin Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Kirin.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Kirin. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Knights of the Round": {
+        "name": "Eidolon Summon Crystal: Knights of the Round",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Knights of the Round",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Knights of the Round",
+        "description": "A soul-resonant key crystal attuned to Knights of the Round. Holding it marks the bearer as having access to the Knights of the Round Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Knights of the Round.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Knights of the Round. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Lakshmi": {
+        "name": "Eidolon Summon Crystal: Lakshmi",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Lakshmi",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Lakshmi",
+        "description": "A soul-resonant key crystal attuned to Lakshmi. Holding it marks the bearer as having access to the Lakshmi Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Lakshmi.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Lakshmi. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Leviathan": {
+        "name": "Eidolon Summon Crystal: Leviathan",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Leviathan",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Leviathan",
+        "description": "A soul-resonant key crystal attuned to Leviathan. Holding it marks the bearer as having access to the Leviathan Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Leviathan.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Leviathan. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Madeen": {
+        "name": "Eidolon Summon Crystal: Madeen",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Madeen",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Madeen",
+        "description": "A soul-resonant key crystal attuned to Madeen. Holding it marks the bearer as having access to the Madeen Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Madeen.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Madeen. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Magus Sisters": {
+        "name": "Eidolon Summon Crystal: Magus Sisters",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Magus Sisters",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Magus Sisters",
+        "description": "A soul-resonant key crystal attuned to Magus Sisters. Holding it marks the bearer as having access to the Magus Sisters Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Magus Sisters.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Magus Sisters. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Mateus": {
+        "name": "Eidolon Summon Crystal: Mateus",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Mateus",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Mateus",
+        "description": "A soul-resonant key crystal attuned to Mateus. Holding it marks the bearer as having access to the Mateus Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Mateus.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Mateus. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Odin": {
+        "name": "Eidolon Summon Crystal: Odin",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Odin",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Odin",
+        "description": "A soul-resonant key crystal attuned to Odin. Holding it marks the bearer as having access to the Odin Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Odin.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Odin. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Phoenix": {
+        "name": "Eidolon Summon Crystal: Phoenix",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Phoenix",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Phoenix",
+        "description": "A soul-resonant key crystal attuned to Phoenix. Holding it marks the bearer as having access to the Phoenix Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Phoenix.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Phoenix. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Quetzalcoatl": {
+        "name": "Eidolon Summon Crystal: Quetzalcoatl",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Quetzalcoatl",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Quetzalcoatl",
+        "description": "A soul-resonant key crystal attuned to Quetzalcoatl. Holding it marks the bearer as having access to the Quetzalcoatl Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Quetzalcoatl.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Quetzalcoatl. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Ramuh": {
+        "name": "Eidolon Summon Crystal: Ramuh",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Ramuh",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Ramuh",
+        "description": "A soul-resonant key crystal attuned to Ramuh. Holding it marks the bearer as having access to the Ramuh Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Ramuh.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Ramuh. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Ravana": {
+        "name": "Eidolon Summon Crystal: Ravana",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Ravana",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Ravana",
+        "description": "A soul-resonant key crystal attuned to Ravana. Holding it marks the bearer as having access to the Ravana Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Ravana.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Ravana. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Shiva": {
+        "name": "Eidolon Summon Crystal: Shiva",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Shiva",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Shiva",
+        "description": "A soul-resonant key crystal attuned to Shiva. Holding it marks the bearer as having access to the Shiva Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Shiva.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Shiva. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Siren": {
+        "name": "Eidolon Summon Crystal: Siren",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Siren",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Siren",
+        "description": "A soul-resonant key crystal attuned to Siren. Holding it marks the bearer as having access to the Siren Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Siren.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Siren. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Sylph": {
+        "name": "Eidolon Summon Crystal: Sylph",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Sylph",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Sylph",
+        "description": "A soul-resonant key crystal attuned to Sylph. Holding it marks the bearer as having access to the Sylph Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Sylph.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Sylph. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Titan": {
+        "name": "Eidolon Summon Crystal: Titan",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Titan",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Titan",
+        "description": "A soul-resonant key crystal attuned to Titan. Holding it marks the bearer as having access to the Titan Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Titan.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Titan. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Tonberry": {
+        "name": "Eidolon Summon Crystal: Tonberry",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Tonberry",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Tonberry",
+        "description": "A soul-resonant key crystal attuned to Tonberry. Holding it marks the bearer as having access to the Tonberry Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Tonberry.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Tonberry. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Typhon": {
+        "name": "Eidolon Summon Crystal: Typhon",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Typhon",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Typhon",
+        "description": "A soul-resonant key crystal attuned to Typhon. Holding it marks the bearer as having access to the Typhon Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Typhon.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Typhon. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Unicorn": {
+        "name": "Eidolon Summon Crystal: Unicorn",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Unicorn",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Unicorn",
+        "description": "A soul-resonant key crystal attuned to Unicorn. Holding it marks the bearer as having access to the Unicorn Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Unicorn.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Unicorn. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Valefor": {
+        "name": "Eidolon Summon Crystal: Valefor",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Valefor",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Valefor",
+        "description": "A soul-resonant key crystal attuned to Valefor. Holding it marks the bearer as having access to the Valefor Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Valefor.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Valefor. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Yojimbo": {
+        "name": "Eidolon Summon Crystal: Yojimbo",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Yojimbo",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Yojimbo",
+        "description": "A soul-resonant key crystal attuned to Yojimbo. Holding it marks the bearer as having access to the Yojimbo Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Yojimbo.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Yojimbo. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Eidolon Summon Crystal: Zalera": {
+        "name": "Eidolon Summon Crystal: Zalera",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Zalera",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Zalera",
+        "description": "A soul-resonant key crystal attuned to Zalera. Holding it marks the bearer as having access to the Zalera Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Zalera.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Zalera. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
+    },
+    "Overture MK II": {
+        "type": "weapon",
+        "subtype": "gunblade",
+        "name": "Overture MK II",
+        "attack": 190,
+        "magick_power": 40,
+        "element": "ice",
+        "durability_multiplier": 3,
+        "stackable": false,
+        "usable_in_combat": true,
+        "description": "A master-crafted evolution of Overture, imbued with Ice Magicite. Its blade leaves spectral afterimages that repeat successful strikes moments later.",
+        "effects": [
+            "Master-Crafted: Durability tripled",
+            "Ice Magicite Infusion: Adds Ice element",
+            "Cold Effect: Chance to inflict Slow",
+            "Echo Strike: Successful blows leave a spectral afterimage that repeats the strike moments later"
+        ],
+        "on_hit": "Slow (15%)",
+        "echo_strike": {
+            "chance": 100,
+            "damage_multiplier": 0.35,
+            "trigger": "successful_hit",
+            "description": "After a successful hit, a spectral afterimage repeats part of the strike moments later."
+        }
+    },
+    "Willow Whisperwind's Bond Contract": {
+        "name": "Willow Whisperwind's Bond Contract",
+        "type": "consumable",
+        "subtype": "companion_contract",
+        "buy_price": 30000,
+        "sell_price": null,
+        "stackable": false,
+        "usable_in_combat": false,
+        "regions": [
+            "Mor Dhona"
+        ],
+        "description": "A magically sealed contract transferring custody of Willow Whisperwind, a Viera held in bondage within Mor Dhona. Purchasing the contract permanently unlocks Willow as a companion for the active character.",
+        "effects": {
+            "unlock_companion": "Willow Whisperwind",
+            "consume_on_use": true
+        },
+        "unique": true,
+        "tradeable": false,
+        "character_bound_on_purchase": true,
+        "admin_remove_only": true
+    },
+    "Eidolon Summon Crystal: Zeromus": {
+        "name": "Eidolon Summon Crystal: Zeromus",
+        "type": "Key Item",
+        "subtype": "eidolon_summon_crystal",
+        "eidolon": "Zeromus",
+        "buy_price": null,
+        "sell_price": null,
+        "stackable": false,
+        "unique": true,
+        "usable_in_combat": false,
+        "summon_unlock": "Zeromus",
+        "description": "A soul-resonant key crystal attuned to Zeromus. Holding it marks the bearer as having access to the Zeromus Eidolon summon, pending normal RP, license, and GM restrictions.",
+        "effects": [
+            "Unlock marker for Eidolon Summon: Zeromus.",
+            "Cannot be bought, sold, or consumed.",
+            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
+        ],
+        "special": "Key Item: Eidolon summon access marker for Zeromus. Requires GM approval before use in combat or RP scenes.",
+        "regions": [
+            "Yggdrasil"
+        ]
     }
 }
