@@ -3459,8 +3459,7 @@
         "usable_in_combat": true
     },
     "Diablos Stabilizer": {
-        "type": "Key Item"
-        "subtype": "curse_treatment",
+        "type": "Key Item",
         "description": "A rare stabilizing agent that suppresses the Curse of Diablos but does not fully remove it.",
         "effects": {
             "reduce_status_stage": {
