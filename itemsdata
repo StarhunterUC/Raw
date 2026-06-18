@@ -2027,6 +2027,70 @@
         "usable_in_combat": true,
         "license_required": "Bows (5)"
     },
+    "Bunny Suit": {
+        "buy_price": 9000,
+        "defense": 39,
+        "description": "A fitted battle suit reinforced beneath its soft fabric. Surprisingly durable and designed for swift movement.",
+        "hp": 380,
+        "name": "Bunny Suit",
+        "regions": [
+            "Mor Dhona"
+        ],
+        "sell_price": 4050,
+        "spd": 3,
+        "stackable": false,
+        "subtype": "light_body",
+        "type": "armor"
+    },
+    "Bunny Ears": {
+        "buy_price": 8400,
+        "description": "Tall enchanted ears that heighten awareness and make the wearer remarkably difficult to catch.",
+        "hp": 350,
+        "mag_resist": 35,
+        "name": "Bunny Ears",
+        "regions": [
+            "Mor Dhona"
+        ],
+        "sell_price": 3780,
+        "spd": 2,
+        "stackable": false,
+        "subtype": "light_helm",
+        "type": "armor"
+    },
+    "Bunny Tail": {
+        "name": "Bunny Tail",
+        "type": "accessory",
+        "subtype": "accessory",
+        "buy_price": 4500,
+        "sell_price": 2250,
+        "stackable": false,
+        "description": "A soft enchanted tail that sharpens the wearer's reflexes and encourages nimble footwork. Requires License: Accessories 8",
+        "regions": [
+            "Mor Dhona"
+        ],
+        "defense": 1,
+        "mag_resist": 1,
+        "spd": 8,
+        "evasion": 8,
+        "metal": 0,
+        "special": "Harefoot: Slightly improves speed and evasion."
+    },
+    "Carrot Sword": {
+        "attack": 74,
+        "buy_price": 8800,
+        "description": "An unusually sharp sword shaped like an enormous carrot. Its light construction allows for quick, unpredictable swings.",
+        "evasion": 8,
+        "name": "Carrot Sword",
+        "regions": [
+            "Mor Dhona"
+        ],
+        "sell_price": 3960,
+        "stackable": false,
+        "subtype": "sword",
+        "type": "weapon",
+        "usable_in_combat": true,
+        "license_required": "Swords (7)"
+    },
     "Cactus Fruit": {
         "buy_price": null,
         "description": "A valuable material that can be sold for gil.",
@@ -2236,34 +2300,22 @@
         "mp": 40,
         "name": "Carmagnole",
         "regions": [
-            "Global"
+            "EDEN Station",
+            "Ebonhaven Ascent",
+            "Lumina's Tomb",
+            "Necrohol of Nabudis",
+            "Site 1",
+            "Site 92",
+            "The Sepulcher of Echoed Laments",
+            "The Wreck of The Charity",
+            "Titan's Gate",
+            "Vilkas Station",
+            "Mor Dhona"
         ],
         "sell_price": 3185,
         "stackable": false,
         "subtype": "mystic_body",
-        "type": "armor",
-        "_rare_rotation_backup": {
-            "regions": [
-                "EDEN Station",
-                "Ebonhaven Ascent",
-                "Lumina's Tomb",
-                "Necrohol of Nabudis",
-                "Site 1",
-                "Site 92",
-                "The Sepulcher of Echoed Laments",
-                "The Wreck of The Charity",
-                "Titan's Gate",
-                "Vilkas Station",
-                "Mor Dhona"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
-        "rare_rotation_until": "2026-06-07T01:56:35.987989",
-        "limited": true,
-        "limited_until": "2026-06-07T01:56:35.987989"
+        "type": "armor"
     },
     "Cat-ear Hood": {
         "name": "Cat-ear Hood",
@@ -2274,7 +2326,7 @@
         "stackable": false,
         "description": "Converts earned LP into gil instead (no LP gained). Element: Half: Ice; Half: Wind Requires License: Accessories 16",
         "regions": [
-            "Rabanastre"
+            "Global"
         ],
         "defense": 0,
         "mag_resist": 0,
@@ -2282,7 +2334,19 @@
         "metal": 0,
         "element": "Half: Ice; Half: Wind",
         "license_required": "Accessories (16)",
-        "special": "Converts earned LP into gil instead (no LP gained)."
+        "special": "Converts earned LP into gil instead (no LP gained).",
+        "_rare_rotation_backup": {
+            "regions": [
+                "Rabanastre"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-17T02:20:30.186405",
+        "rare_rotation_until": "2026-06-18T02:20:30.186405",
+        "limited": true,
+        "limited_until": "2026-06-18T02:20:30.186405"
     },
     "Celebrant's Miter": {
         "buy_price": 12840,
@@ -5499,7 +5563,51 @@
         "buy_price": 90,
         "description": "Removes Petrify and Stone.",
         "regions": [
-            "Global"
+            "Pharos",
+            "Balfonheim",
+            "Nabudis",
+            "Milsante",
+            "The Wailing Pit",
+            "Necrohol of Nabudis",
+            "The Stillshrine of Etro",
+            "Mar'Quessa",
+            "Thiraxa Bay",
+            "Jagd Village",
+            "Bel Vahran",
+            "Vhal Ridoran",
+            "Site 92",
+            "Site 26",
+            "Site 1",
+            "The Wreck of The Charity",
+            "The Throne of the Final Eclipse",
+            "Luxerion",
+            "Archylte Steppe",
+            "The Shattered Tribunal",
+            "Archades",
+            "Titan's Gate",
+            "Ogir-Yensa Sandsea",
+            "Nam-Yensa Sandsea",
+            "Oerba",
+            "Ebonhaven Ascent",
+            "Bodhum",
+            "Bresha Ruins",
+            "Yaschas Massif",
+            "Yusnaan",
+            "Rabanastre",
+            "EDEN Station",
+            "The Paddraean Archaeopolis",
+            "The Sepulcher of Echoed Laments",
+            "Lumina's Tomb",
+            "Vilkas Station",
+            "Ouroboros Station",
+            "Shrine of Final Warmth",
+            "The Shattergrove",
+            "Sundering Spiral",
+            "Memory's Brink",
+            "Hollow Reliquary",
+            "The Mourndark Labyrinth",
+            "Mor Dhona",
+            "The Skyferry"
         ],
         "sell_price": 35,
         "type": "consumable",
@@ -5508,63 +5616,7 @@
                 "Petrify",
                 "Stone"
             ]
-        },
-        "_rare_rotation_backup": {
-            "regions": [
-                "Pharos",
-                "Balfonheim",
-                "Nabudis",
-                "Milsante",
-                "The Wailing Pit",
-                "Necrohol of Nabudis",
-                "The Stillshrine of Etro",
-                "Mar'Quessa",
-                "Thiraxa Bay",
-                "Jagd Village",
-                "Bel Vahran",
-                "Vhal Ridoran",
-                "Site 92",
-                "Site 26",
-                "Site 1",
-                "The Wreck of The Charity",
-                "The Throne of the Final Eclipse",
-                "Luxerion",
-                "Archylte Steppe",
-                "The Shattered Tribunal",
-                "Archades",
-                "Titan's Gate",
-                "Ogir-Yensa Sandsea",
-                "Nam-Yensa Sandsea",
-                "Oerba",
-                "Ebonhaven Ascent",
-                "Bodhum",
-                "Bresha Ruins",
-                "Yaschas Massif",
-                "Yusnaan",
-                "Rabanastre",
-                "EDEN Station",
-                "The Paddraean Archaeopolis",
-                "The Sepulcher of Echoed Laments",
-                "Lumina's Tomb",
-                "Vilkas Station",
-                "Ouroboros Station",
-                "Shrine of Final Warmth",
-                "The Shattergrove",
-                "Sundering Spiral",
-                "Memory's Brink",
-                "Hollow Reliquary",
-                "The Mourndark Labyrinth",
-                "Mor Dhona",
-                "The Skyferry"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
-        "rare_rotation_until": "2026-06-07T01:56:35.987989",
-        "limited": true,
-        "limited_until": "2026-06-07T01:56:35.987989"
+        }
     },
     "Golden Amulet": {
         "name": "Golden Amulet",
@@ -9322,22 +9374,34 @@
         "evasion": 5,
         "name": "MP-443 Grach (PYa)",
         "regions": [
-            "Archades",
-            "Bel Vahran",
-            "Vhal Ridoran",
-            "Nabudis",
-            "Oerba",
-            "Pharos",
-            "Rabanastre",
-            "The Paddraean Archaeopolis",
-            "Yggdrasil",
-            "Yusnaan"
+            "Global"
         ],
         "sell_price": 1395,
         "stackable": false,
         "subtype": "pistol",
         "type": "weapon",
-        "usable_in_combat": true
+        "usable_in_combat": true,
+        "_rare_rotation_backup": {
+            "regions": [
+                "Archades",
+                "Bel Vahran",
+                "Vhal Ridoran",
+                "Nabudis",
+                "Oerba",
+                "Pharos",
+                "Rabanastre",
+                "The Paddraean Archaeopolis",
+                "Yggdrasil",
+                "Yusnaan"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-17T02:20:30.186405",
+        "rare_rotation_until": "2026-06-18T02:20:30.186405",
+        "limited": true,
+        "limited_until": "2026-06-18T02:20:30.186405"
     },
     "MP5A3": {
         "attack": 60,
@@ -10386,7 +10450,7 @@
     },
     "Black Phoenix Feather": {
         "buy_price": 12075,
-        "description": "Revives a character, Inflicts Berserk & Bubble; A Black Phoenix feather with a transparent black mist emitting from it",
+        "description": "Revives a character, Inflicts Berserk & Bubble Will ALWAYS trigger a boss fight; A Black Phoenix feather with a transparent black mist emitting from it",
         "regions": [
             "Hollow Reliquary"
         ],
@@ -10394,12 +10458,26 @@
         "type": "consumable",
         "effects": {
             "revive": true,
-            "revive_hp_percent": 0.2,
+            "revive_hp_percent": 1,
             "cure_status": "KO",
             "apply_statuses": [
                 "Berserk",
                 "Bubble"
             ]
+        }
+    },
+    "Rainbow Phoenix Feather": {
+        "buy_price": 40000,
+        "description": "Revives a character, 4m Timer is ignored.",
+        "regions": [
+            "Hollow Reliquary"
+        ],
+        "sell_price": 8000,
+        "type": "consumable",
+        "effects": {
+            "revive": true,
+            "revive_hp_percent": 1,
+            "cure_status": "KO"
         }
     },
     "Pirate Hat": {
@@ -11684,6 +11762,32 @@
         "sell_price": 170,
         "type": "junk"
     },
+	"Sigil Hat": {
+		"type": "helm",
+		"subtype": "mystic_helm",
+		"defense": 12,
+		"mag_resist": 16,
+		"mag_pwr": 14,
+		"mp": 35,
+		"buy_price": 3200,
+		"sell_price": 1600,
+		"stackable": false,
+		"license": "Mystic Armor (5)",
+		"description": "A rune-embroidered hat worn by illusionists and occult scholars. Increases magick potency and improves focus."
+	},
+	"Sigil Robes": {
+		"type": "armor",
+		"subtype": "mystic_armor",
+		"defense": 24,
+		"mag_resist": 28,
+		"mag_pwr": 22,
+		"mp": 60,
+		"buy_price": 6200,
+		"sell_price": 3100,
+		"stackable": false,
+		"license": "Mystic Armor (5)",
+		"description": "Robes covered in shifting arcane sigils. Enhances spellcasting, illusion stability, and magical endurance."
+	},	
     "Scorpion Tail": {
         "attack": 124,
         "buy_price": null,
@@ -12867,19 +12971,7 @@
         "costs": {
             "mp": 20
         },
-        "regions": [
-            "Global"
-        ],
-        "_rare_rotation_backup": {
-            "regions": null,
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
-        "rare_rotation_until": "2026-06-07T01:56:35.987989",
-        "limited": true,
-        "limited_until": "2026-06-07T01:56:35.987989"
+        "regions": null
     },
     "Scroll: Scathe": {
         "type": "consumable",
@@ -13304,7 +13396,7 @@
         "description": "Teaches White Magick: Vox. Removes Silence from a target.",
         "license_required": "White Magick 2",
         "regions": [
-            "Rabanastre"
+            "Global"
         ],
         "teaches": {
             "kind": "spell",
@@ -13317,7 +13409,19 @@
         "mp_cost": 8,
         "costs": {
             "mp": 8
-        }
+        },
+        "_rare_rotation_backup": {
+            "regions": [
+                "Rabanastre"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-17T02:20:30.186405",
+        "rare_rotation_until": "2026-06-18T02:20:30.186405",
+        "limited": true,
+        "limited_until": "2026-06-18T02:20:30.186405"
     },
     "Scroll: Warp": {
         "type": "consumable",
@@ -14307,33 +14411,45 @@
         "license_required": "Light Armor (5)",
         "name": "Survival Vest",
         "regions": [
-            "Archades",
-            "Archylte Steppe",
-            "Bel Vahran",
-            "Vhal Ridoran",
-            "Bresha Ruins",
-            "Mar'Quessa",
-            "Milsante",
-            "Nabudis",
-            "Nam-Yensa Sandsea",
-            "Oerba",
-            "Ogir-Yensa Sandsea",
-            "Pharos",
-            "Site 26",
-            "The Paddraean Archaeopolis",
-            "The Shattered Tribunal",
-            "The Stillshrine of Etro",
-            "The Wailing Pit",
-            "Thiraxa Bay",
-            "Yaschas Massif",
-            "Yusnaan",
-            "Mor Dhona"
+            "Global"
         ],
         "sell_price": 1025,
         "stackable": false,
         "subtype": "light_body",
         "type": "armor",
-        "vit": 5
+        "vit": 5,
+        "_rare_rotation_backup": {
+            "regions": [
+                "Archades",
+                "Archylte Steppe",
+                "Bel Vahran",
+                "Vhal Ridoran",
+                "Bresha Ruins",
+                "Mar'Quessa",
+                "Milsante",
+                "Nabudis",
+                "Nam-Yensa Sandsea",
+                "Oerba",
+                "Ogir-Yensa Sandsea",
+                "Pharos",
+                "Site 26",
+                "The Paddraean Archaeopolis",
+                "The Shattered Tribunal",
+                "The Stillshrine of Etro",
+                "The Wailing Pit",
+                "Thiraxa Bay",
+                "Yaschas Massif",
+                "Yusnaan",
+                "Mor Dhona"
+            ],
+            "limited": null,
+            "limited_until": null
+        },
+        "rare_rotation_active": true,
+        "rare_rotation_started_at": "2026-06-17T02:20:30.186405",
+        "rare_rotation_until": "2026-06-18T02:20:30.186405",
+        "limited": true,
+        "limited_until": "2026-06-18T02:20:30.186405"
     },
     "SV-98": {
         "attack": 88,
@@ -15334,26 +15450,14 @@
         "evasion": 2,
         "name": "USAS-12",
         "regions": [
-            "Global"
+            "Ebonhaven Ascent",
+            "Yggdrasil"
         ],
         "sell_price": 2230,
         "stackable": false,
         "subtype": "shotgun",
         "type": "weapon",
-        "usable_in_combat": true,
-        "_rare_rotation_backup": {
-            "regions": [
-                "Ebonhaven Ascent",
-                "Yggdrasil"
-            ],
-            "limited": null,
-            "limited_until": null
-        },
-        "rare_rotation_active": true,
-        "rare_rotation_started_at": "2026-06-06T01:56:35.987989",
-        "rare_rotation_until": "2026-06-07T01:56:35.987989",
-        "limited": true,
-        "limited_until": "2026-06-07T01:56:35.987989"
+        "usable_in_combat": true
     },
     "Uzi Pro": {
         "attack": 52,
@@ -15926,6 +16030,7 @@
         "buy_price": 1690,
         "description": "A magick staff tuned for elemental or arcane amplification.",
         "evasion": 8,
+        "magick_power": 4,
         "name": "Wizard's Staff",
         "regions": [
             "Archades",
@@ -17405,28 +17510,6 @@
             "Key Item used for tracking summon access in Sam.py/admin inventory systems."
         ],
         "special": "Key Item: Eidolon summon access marker for Kirin. Requires GM approval before use in combat or RP scenes.",
-        "regions": [
-            "Yggdrasil"
-        ]
-    },
-    "Eidolon Summon Crystal: Knights of the Round": {
-        "name": "Eidolon Summon Crystal: Knights of the Round",
-        "type": "Key Item",
-        "subtype": "eidolon_summon_crystal",
-        "eidolon": "Knights of the Round",
-        "buy_price": null,
-        "sell_price": null,
-        "stackable": false,
-        "unique": true,
-        "usable_in_combat": false,
-        "summon_unlock": "Knights of the Round",
-        "description": "A soul-resonant key crystal attuned to Knights of the Round. Holding it marks the bearer as having access to the Knights of the Round Eidolon summon, pending normal RP, license, and GM restrictions.",
-        "effects": [
-            "Unlock marker for Eidolon Summon: Knights of the Round.",
-            "Cannot be bought, sold, or consumed.",
-            "Key Item used for tracking summon access in Sam.py/admin inventory systems."
-        ],
-        "special": "Key Item: Eidolon summon access marker for Knights of the Round. Requires GM approval before use in combat or RP scenes.",
         "regions": [
             "Yggdrasil"
         ]
